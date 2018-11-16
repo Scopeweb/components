@@ -1,28 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import DesignDevelopment from './Components/DesignDevelopment/DesignDevelopment';
+import Blog from './Components/Blog/Blog';
+
+import './Styles/Fonts.css';
+import './Styles/Normalize.min.css';
+import './Styles/Owl.carousel.min.css';
+import './Styles/Pixeicons.css';
+import './Styles/Animation.css';
+import './Styles/Layout.css';
+import './Styles/Style.css';
+
+const App = () => (
+  <div className="App">
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' activeClassname="uk-active" component={Home}/>
+        <Route path='/about' activeClassname="uk-active" component={About}/>
+        <Route path='/services' component={DesignDevelopment}/>
+        <Route path='/blog' component={Blog}/>
+      </Switch>
+    </BrowserRouter>
+  </div>
+);
 
 export default App;
