@@ -6,7 +6,22 @@ class Jumbotron extends Component {
         return (
             <React.Fragment>
                 <div className="pr__hero__wrap pr__dark" id="site-hero">
-                    <header className="pr__header uk-sticky" data-uk-sticky="top: 443; animation: uk-animation-slide-top;">
+                    <div className="pr__mobile__nav" id="navbar-mobile" data-uk-offcanvas="overlay: true; flip: true; mode: none">
+                        <div className="uk-offcanvas-bar">
+                        <button className="uk-offcanvas-close" type="button" data-uk-close="ratio: 2;" />
+                            <nav className="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
+                                <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/design-development">Services</a></li>
+                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="https://clients.scopeweb.nyc" target="_blank">Client Area</a></li>
+                                    <li><a href="#pr__contact">Start a Project</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <header className="pr__header uk-sticky pr__dark" data-uk-sticky="top: 443; animation: uk-animation-slide-top;">
                         <div className="uk-container">
                             <div className="inner">
                                 <div className="logo" style={{opacity: 1, transform: 'translateX(0px)'}}>

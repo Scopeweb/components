@@ -297,7 +297,7 @@ strong {
 }
 
 .pr__header.pr__dark.uk-active {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #313A5A;
 }
 
 /* Mobile Navbar */
@@ -1477,7 +1477,7 @@ body.single-post .hero-content .category {
   position: relative;
   display: block;
   overflow: hidden;
-  background-color: #1b1b1b;
+  background-color: #313A5A;
   color: #747474;
 }
 
@@ -1556,7 +1556,7 @@ body.single-post .hero-content .category {
 }
 
 .pr__footer .pr__footer__center {
-  background: #161616;
+  background: #252e4c;
 }
 
 .pr__footer .pr__footer__center ul {
@@ -1593,7 +1593,7 @@ body.single-post .hero-content .category {
 }
 
 .pr__footer .pr__footer__bottom {
-  background-color: #000;
+  background-color: #0e1427;
   position: relative;
   padding: 0;
 }

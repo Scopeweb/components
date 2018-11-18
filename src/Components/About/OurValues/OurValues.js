@@ -36,13 +36,12 @@ class OurValues extends Component {
                                 <div className="right uk-width-3-5@s">
                                     <p>
                                         Since 2016, clients have trusted us to redefine their businesses through web development & design. Our integrated process 
-                                        of strategy, design, and engineering has a proven record of delivering unique products with a level of beauty and 
-                                        precision unrivaled in our industry.
+                                        of strategy, design, and engineering has a proven record of delivering unique products precision unrivaled in our industry.
                                     </p>
                                     <p>
                                         Our collaborative approach to problem-solving leverages years of experience bringing digital products to market. Whether 
                                         you want to build the next ground-breaking mobile app, wearable, or hardware product, we provide a full range of strategy, 
-                                        design, and development services to get the job done.
+                                        design, and development services.
                                     </p>
                                 </div>
                             </div>
