@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Menu extends Component {
     render() {
@@ -7,11 +7,11 @@ class Menu extends Component {
             <div>
                 <nav className="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                     <ul>
-                        <li><NavLink exact activeclassname="uk-active" to='/'>Home</NavLink></li>
-                        <li><NavLink exact activeClassname="uk-active" to='/about'>About</NavLink></li>
-                        <li><NavLink exact activeclassname="uk-active" to='/design-development'>Design &amp; Development</NavLink></li>
-                        <li><NavLink exact activeclassname="uk-active" to='/blog'>Blog</NavLink></li>
-                        <li><NavLink exact activeclassname="uk-active" to='#pr__contact'>Start a Project</NavLink></li>
+                        <li><Link to='/' activeClassName="uk-active">Home</Link></li>
+                        <li><Link to='/about' activeClassName="uk-active">About</Link></li>
+                        <li><Link to='/design-development' activeClassName="uk-active">Design &amp; Development</Link></li>
+                        <li><Link to='/blog' activeClassName="uk-active">Blog</Link></li>
+                        <li><Link to='#pr__contact'>Start a Project</Link></li>
                     </ul>
                 </nav>
             </div>

@@ -21,10 +21,10 @@ class Footer extends Component {
                             </div>
                             <div className="pr__social column uk-first-column uk-grid-margin">
                             <div className="inner">
-                                <a href="#" className="icon pr-logo-facebook" />
-                                <a href="#" className="icon pr-logo-twitter" />
-                                <a href="#" className="icon pr-logo-instagram" />
-                                <a href="#" className="icon pr-logo-xing" />
+                                <a href="https://facebook.com/scopeweb" target="_blank" className="icon pr-logo-facebook" />
+                                <a href="https://twitter.com/scopewebnyc" target="_blank" className="icon pr-logo-twitter" />
+                                <a href="https://instagram.com/scopeweb" target="_blank" className="icon pr-logo-instagram" />
+                                <a href="#" className="icon pr-logo-whatsapp" />
                             </div>
                             </div>
                         </div>

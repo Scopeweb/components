@@ -11,31 +11,34 @@ class ServiceCards extends Component {
               <div className="item feature-box uk-active uk-first-column" style={{opacity: 1, transform: 'translateY(0px)'}}>
                 <div className="inner">
                   <i className="icon pr-chart-bars pr__icon__large" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                  <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>Production Creation.</h3>
+                  <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>Product Creation.</h3>
                   <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                  <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>It is a long established fact that a reader will be
-                    distracted by the readable content of a page.</p>
-                  <a href="#" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
+                  <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>
+                    Your website is bigger than just a placeholder. It encompasses everything you do. From your products to customer experience, every touch point should be a true reflection of your company.
+                  </p>
+                  <a href="/design-development" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 </div>
               </div>
               <div className="item feature-box" style={{opacity: 1, transform: 'translateY(0px)'}}>
                 <div className="inner">
                   <i className="icon pr-rocket pr__icon__large" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                  <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>Integrated Marketing.</h3>
+                  <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>Part of your team.</h3>
                   <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                  <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>There are many variations of passages of available, but the
-                    majority alteration in some form.</p>
-                  <a href="#" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
+                  <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>
+                    We're invested in your success. Every solution is created with your needs in mind to reach new audiences or the same audience in a different way. We're an extension of your business.
+                  </p>
+                  <a href="/design-development" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 </div>
               </div>
               <div className="item feature-box" style={{opacity: 1, transform: 'translateY(0px)'}}>
                 <div className="inner">
                   <i className="icon pr-pie-chart pr__icon__large" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                  <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>Business Solutions.</h3>
+                  <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>Clear Communication.</h3>
                   <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                  <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>The generated Lorem Ipsum is therefore always free from
-                    repetition, injected humour.</p>
-                  <a href="#" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
+                  <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>
+                    The key to a successful partnership is collaboration. Open, transparent discussions will ensure that we exceed expectations, meet your deadline, and stay within budget.
+                  </p>
+                  <a href="/design-development" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 </div>
               </div>
             </div>

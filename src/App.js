@@ -8,7 +8,6 @@ import Blog from './Components/Blog/Blog';
 
 import './Styles/Fonts.css';
 import './Styles/Normalize.min.css';
-import './Styles/Owl.carousel.min.css';
 import './Styles/Pixeicons.css';
 import './Styles/Animation.css';
 import './Styles/Layout.css';

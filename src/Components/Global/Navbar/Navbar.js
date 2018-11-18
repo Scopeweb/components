@@ -14,7 +14,7 @@ class Navbar extends Component {
           <div className="uk-container">
             <div className="inner">
               <div className="logo">
-                <a href="index.html">
+                <a href="/">
                   <div className="brand" />
                 </a>
               </div>

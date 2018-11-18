@@ -6,15 +6,15 @@ class Services extends Component {
             <section className="pr__services pr__section uk-section uk-section-large" id="pr__services">
                 <div className="section-outer">
                     <div className="section-heading">
-                    <div className="uk-container">
-                        <div className="inner">
-                        <div className="left">
-                            <hr className="line pr__hr__secondary" />
-                            <h2 className="title uk-h1">Services.</h2>
-                            <span className="subtitle pr__heading__secondary">We work with you, Not for you</span>
+                        <div className="uk-container">
+                            <div className="inner">
+                                <div className="left">
+                                    <hr className="line pr__hr__secondary" />
+                                    <h2 className="title uk-h1">Services.</h2>
+                                    <span className="subtitle pr__heading__secondary">We work with you, Not for you</span>
+                                </div>
+                            </div>
                         </div>
-                        </div>
-                    </div>
                     </div>
                     <div className="section-inner">
                     <div className="uk-container">
