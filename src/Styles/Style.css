@@ -2683,3 +2683,9 @@ body #site-wrapper {
 .section-inner p.header-title {
   color: #ffffff;
 }
+
+/** wave canvas **/
+canvas {
+  width: 100%;
+  height: 100%;
+}
