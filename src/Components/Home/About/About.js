@@ -25,20 +25,20 @@ class About extends Component {
             <section className="pr__about pr__section uk-section uk-section-large" id="pr__about">
                 <div className="section-outer">
                     <div className="section-heading">
-                    <div className="outer">
-                        <div className="uk-container">
-                        <div className="inner uk-grid" data-uk-grid>
-                            <div className="left uk-width-expand uk-first-column">
-                            <hr className="line pr__hr__secondary" />
-                            <h2 className="title uk-h1">About.</h2>
-                            <span className="subtitle pr__heading__secondary">We're more than a digital agency</span>
-                            </div>
-                            <div className="right uk-width-3-5@s">
-                            <p>Great businesses rise to the top with the right amount of agitation. We shake things up. At Scope Web we imagine, plan and bring consumer internet experience to life. We provide a mixture of consulting, design and engineering.</p>
-                            </div>
-                        </div>
-                        </div>{/* Container End */}
-                    </div>{/* Outer End */}
+                        <div className="outer">
+                            <div className="uk-container">
+                                <div className="inner uk-grid" data-uk-grid>
+                                    <div className="left uk-width-expand uk-first-column">
+                                    <hr className="line pr__hr__secondary" />
+                                    <h2 className="title uk-h1">About.</h2>
+                                        <span className="subtitle pr__heading__secondary">We're more than a digital agency</span>
+                                    </div>
+                                    <div className="right uk-width-3-5@s">
+                                        <p>Great businesses rise to the top with the right amount of agitation. We shake things up. At Scope Web we imagine, plan and bring consumer internet experience to life. We provide a mixture of consulting, design and engineering.</p>
+                                    </div>
+                                </div>
+                            </div>{/* Container End */}
+                        </div>{/* Outer End */}
                     </div>{/* Heading End */}
                     <div className="section-inner">
                     <div className="uk-container">
