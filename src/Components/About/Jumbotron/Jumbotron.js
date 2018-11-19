@@ -47,7 +47,8 @@ class Jumbotron extends Component {
                                 </div>
                             </div>
                         </div>
-                    </header><div className="uk-sticky-placeholder" style={{height: 170, margin: 0}} hidden />{/* Site Header End */}
+                    </header>
+                    <div className="uk-sticky-placeholder" style={{height: 170, margin: 0}} hidden />{/* Site Header End */}
                     <section className="pr__hero uk-section" id="pr__hero">
                         <div className="section-inner">
                             <div className="uk-container">

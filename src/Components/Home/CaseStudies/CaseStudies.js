@@ -32,7 +32,7 @@ class CaseStudies extends Component {
                             <div className="project-label__bayron mb-4">
                                 Web Development
                             </div>
-                            <h2 className="mb-3">Bayron Home Improvements Inc.</h2>
+                            <h2 className="mb-3">Bayron website.</h2>
                             <p className="case-study__desc mb-5">
                                 An easy-to-use website to showcase projects, services and previous successes. Over 30% of traffic increase in just 3 months time, and a Home Depot partnership.
                             </p>
@@ -48,25 +48,25 @@ class CaseStudies extends Component {
                 <div className="uk-container case-study-items mb-5">
                     <a className="link__case-study" href="/work/goremote">
                     <div class="inner uk-grid case-study__item_go-remote" data-uk-grid="true">
-                        <div class="left">
-                            <img className="case-img__goremote" src={goremote} alt="GoRemote job board" />
-                        </div>
-                        <div class="right uk-width-expand uk-first-column case-study__content_right">
-                            <div className="project-label__go-remote mb-4">
+                        <div class="left uk-width-expand uk-first-column case-study__content_bayron">
+                            <div className="project-label__go-remote">
                                 Product Concept
                             </div>
                             <h2 className="mb-3">GoRemote Job Board.</h2>
                             <p className="case-study__desc mb-5">
-                                Digital nomads can now connect to employers. Concepted, designed and developed the platform as a side product for Scope Web.
+                                Digital nomads can now connect to employers. Concepted, designed and developed the platform as a side product for Scope Web Labs. Launch expected in early 2019 with early access to our subscribers.
                             </p>
                             <div className="project-cta">View case study</div>
+                        </div>
+                        <div class="right uk-grid-margin uk-first-column">
+                            <img className="case-img__goremote" src={goremote} alt="GoRemote job board" />
                         </div>
                     </div>
                     </a>
                 </div>
 
                 <div className="uk-container case-study-items mb-5">
-                    <a className="link__case-study" href="/work/bayron-home-improvements">
+                    <a className="link__case-study" href="/work/gemini-gas-springs">
                     <div class="inner uk-grid case-study__item_gemini" data-uk-grid="true">
                         <div class="left uk-width-expand uk-first-column case-study__content">
                             <div className="project-label__gemini mb-4">
@@ -78,7 +78,7 @@ class CaseStudies extends Component {
                             </p>
                             <div className="project-cta">View case study</div>
                         </div>
-                        <div class="right">
+                        <div class="right uk-grid-margin uk-first-column">
                             <img className="case-img_gemini" src={gemini} alt="Gemini Gas Springs case study" />
                         </div>
                     </div>
