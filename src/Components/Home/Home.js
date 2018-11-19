@@ -10,7 +10,6 @@ import CaseStudies from './CaseStudies/CaseStudies';
 import About from './About/About';
 import LatestBlog from './LatestBlog/LatestBlog';
 import Footer from '../Global/Footer/Footer';
-import ContactForm from '../Global/ContactForm/ContactForm';
 
 class Home extends Component {
 	render() {
@@ -33,7 +32,6 @@ class Home extends Component {
             <About />
             <hr className="pr__vr__section" />
             <Footer />
-            <ContactForm />
           </div>
         </div>
       </React.Fragment>

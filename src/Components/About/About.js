@@ -4,7 +4,7 @@ import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
 import DottedGrid from './DottedGrid/DottedGrid';
 import OurValues from './OurValues/OurValues';
-import Newsletter from '../Global/Newsletter/Newsletter'
+import MailChimp from './MailChimp/MailChimp';
 import Footer from '../Global/Footer/Footer';
 
 class About extends Component {
@@ -16,8 +16,8 @@ class About extends Component {
                 <hr className="pr__vr__section" />
                 <OurValues />
                 <hr className="pr__vr__section" />
-                <Newsletter />
-                <hr className="pr__vr__section" />
+                {/* <MailChimp />
+                <hr className="pr__vr__section" /> */}
                 <Footer />
             </React.Fragment>
         );

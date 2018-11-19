@@ -15,40 +15,14 @@ const CustomForm = ({ status, message, onValidated }) => {
     });
 
   return (
-      <div className="uk-container">
-        {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
-        {status === "error" && (
-            <div
-            style={{ color: "red" }}
-            dangerouslySetInnerHTML={{ __html: message }}
-            />
-        )}
-        {status === "success" && (
-            <div
-            style={{ color: "green" }}
-            dangerouslySetInnerHTML={{ __html: message }}
-            />
-        )}
-        <h3>But there’s so much more to it.</h3>
-        <p>We can’t do it justice in a single page, but we don’t want an information overload. Get to know us better by signing up for our newsletter and downloading our whitepaper.</p>
+    <form className="uk-form-stacked">
         <div className="uk-width-1-2@s">
-            <input
-                className="uk-input"
-                ref={node => (name = node)}
-                type="text"
-                placeholder="Your name"
-            />
+            <input className="uk-input" type="text" placeholder="50" />
         </div>
         <div className="uk-width-1-2@s">
-            <input
-                className="uk-input"
-                ref={node => (email = node)}
-                type="email"
-                placeholder="Please enter your email address..."
-            />
+            <input claclassNamess="uk-input" type="text" placeholder="50" />
         </div>
-        
-    </div>
+    </form>
   );
 };
 
