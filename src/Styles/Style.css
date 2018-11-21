@@ -2695,3 +2695,9 @@ canvas {
   z-index: 200;
   background-color: rgba(0, 0, 0, 0.85) !important;
 }
+
+@media only screen and (max-width : 415px) {
+  .ReactModal__Content {
+    width: 100% !important;
+  }
+}

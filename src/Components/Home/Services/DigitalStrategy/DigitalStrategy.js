@@ -9,7 +9,9 @@ const customStyles = {
       bottom                : 'auto',
       marginRight           : '-50%',
       transform             : 'translate(-50%, -50%)',
-      width                 : '55%'
+      width                 : '55%',
+      maxHeight             : '100vh',
+      overflowY             : 'auto'
     }
   };
   
@@ -70,7 +72,7 @@ class DigitalStrategy extends Component {
                 <p>Recognising the need for a digital marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
-                <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>E-mail our experts</button>
+                <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>
                 </p>
             </div>
             </Modal>
