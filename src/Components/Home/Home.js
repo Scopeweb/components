@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
-import HeroBG from '../../Images/hero_01.png';
-
 import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
 import ServiceCards from './ServiceCards/ServiceCards';
 import Services from './Services/Services';
 import CaseStudies from './CaseStudies/CaseStudies';
 import About from './About/About';
-import LatestBlog from './LatestBlog/LatestBlog';
 import Footer from '../Global/Footer/Footer';
 
 class Home extends Component {

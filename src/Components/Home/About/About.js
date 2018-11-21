@@ -16,8 +16,7 @@ class About extends Component {
                 fs: 0,
                 iv_load_policy: 3,
                 modestbranding: 1,
-                rel: 0,
-                modestbranding: 0
+                rel: 0
             }
         };
 

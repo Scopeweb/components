@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
-import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
 import DottedGrid from './DottedGrid/DottedGrid';
 import OurValues from './OurValues/OurValues';

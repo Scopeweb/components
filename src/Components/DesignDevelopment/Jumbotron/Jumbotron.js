@@ -15,7 +15,7 @@ class Jumbotron extends Component {
                                     <li><a href="/about">About</a></li>
                                     <li className="uk-active"><a href="/design-development">Services</a></li>
                                     <li><a href="/blog">Blog</a></li>
-                                    <li><a href="https://clients.scopeweb.nyc" target="_blank">Client Area</a></li>
+                                    <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener noreferrer">Client Area</a></li>
                                     <li><a href="#pr__contact">Start a Project</a></li>
                                 </ul>
                             </nav>

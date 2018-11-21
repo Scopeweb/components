@@ -4,8 +4,8 @@ import Helmet from 'react-helmet';
 import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
 import Wave from './Wave/Wave';
-import Services from './Services/Services';
-import TopCards from './TopCards/TopCards';
+import Heading from './Services/Services';
+import AnalyzeDesignDevelop from './TopCards/TopCards';
 import ProcessHeading from './ProcessHeading/ProcessHeading';
 import Footer from '../Global/Footer/Footer';
 
@@ -19,8 +19,8 @@ class About extends Component {
                 </Helmet>
                 <Jumbotron />
                 <Wave />
-                <Services />
-                <TopCards />
+                <Heading />
+                <AnalyzeDesignDevelop />
                 <ProcessHeading />
                 <Footer />
             </React.Fragment>

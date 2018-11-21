@@ -11,7 +11,7 @@ class OurValues extends Component {
                                 <div className="left">
                                     <hr className="line pr__hr__secondary" />
                                     <h2 className="title uk-h1">Some say agency, we prefer team.</h2>
-                                    <span className="subtitle pr__heading__secondary">👊 Fist bumps over handshakes.</span>
+                                    <span className="subtitle pr__heading__secondary"><span role="img" aria-label="Fist bump">👊</span> Fist bumps over handshakes.</span>
                                 </div>
                             </div>
                         </div>

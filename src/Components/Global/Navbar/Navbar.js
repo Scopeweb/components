@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
 import PreNav from './PreNav/PreNav';
 import Menu from './Menu/Menu';

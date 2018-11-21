@@ -27,8 +27,8 @@ class CaseStudies extends Component {
 
                 <div className="uk-container case-study-items mb-5">
                     <a className="link__case-study" href="/work/bayron-home-improvements">
-                    <div class="inner uk-grid case-study__item_bayron" data-uk-grid="true">
-                        <div class="left uk-width-expand uk-first-column case-study__content_bayron">
+                    <div className="inner uk-grid case-study__item_bayron" data-uk-grid="true">
+                        <div className="left uk-width-expand uk-first-column case-study__content_bayron">
                             <div className="project-label__bayron mb-4">
                                 Web Development
                             </div>
@@ -38,7 +38,7 @@ class CaseStudies extends Component {
                             </p>
                             <div className="project-cta">View case study</div>
                         </div>
-                        <div class="right">
+                        <div className="right">
                             <img className="case-img__bayron" src={bayron} alt="Bayron Home Improvements case study" />
                         </div>
                     </div>
@@ -47,8 +47,8 @@ class CaseStudies extends Component {
 
                 <div className="uk-container case-study-items mb-5">
                     <a className="link__case-study" href="/work/goremote">
-                    <div class="inner uk-grid case-study__item_go-remote" data-uk-grid="true">
-                        <div class="left uk-width-expand uk-first-column case-study__content_bayron">
+                    <div className="inner uk-grid case-study__item_go-remote" data-uk-grid="true">
+                        <div className="left uk-width-expand uk-first-column case-study__content_bayron">
                             <div className="project-label__go-remote">
                                 Product Concept
                             </div>
@@ -58,7 +58,7 @@ class CaseStudies extends Component {
                             </p>
                             <div className="project-cta">View case study</div>
                         </div>
-                        <div class="right uk-grid-margin uk-first-column">
+                        <div className="right uk-grid-margin uk-first-column">
                             <img className="case-img__goremote" src={goremote} alt="GoRemote job board" />
                         </div>
                     </div>
@@ -67,8 +67,8 @@ class CaseStudies extends Component {
 
                 <div className="uk-container case-study-items mb-5">
                     <a className="link__case-study" href="/work/gemini-gas-springs">
-                    <div class="inner uk-grid case-study__item_gemini" data-uk-grid="true">
-                        <div class="left uk-width-expand uk-first-column case-study__content">
+                    <div className="inner uk-grid case-study__item_gemini" data-uk-grid="true">
+                        <div className="left uk-width-expand uk-first-column case-study__content">
                             <div className="project-label__gemini mb-4">
                                 Web Development &amp; SEO
                             </div>
@@ -78,7 +78,7 @@ class CaseStudies extends Component {
                             </p>
                             <div className="project-cta">View case study</div>
                         </div>
-                        <div class="right uk-grid-margin uk-first-column">
+                        <div className="right uk-grid-margin uk-first-column">
                             <img className="case-img_gemini" src={gemini} alt="Gemini Gas Springs case study" />
                         </div>
                     </div>
