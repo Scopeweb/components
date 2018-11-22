@@ -35,11 +35,10 @@ class StepAnalyze extends Component {
                                 <p>Scope Web has been absolutely fantastic in assisting us with managing all of our various websites and tech issues. We 
                                 couldn't ask for a better team to work with. They respond to our queries at all hours and even on weekends. It's helpful to know 
                                 that we have someone available to help us with even the most urgent of issues.</p>
-                                <footer><strong>Aron Larsson</strong> – CEO, Strategy Director</footer>
+                                <footer><strong>Aaron L.</strong> – CEO, Strategy Director</footer>
                             </blockquote>
-                            <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one
-                                customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art
-                                customer service.
+                            <p>We continually implement exactly what your audience wants. Our decisions are backed by user data. We capture every 
+                                interaction and constantly pivot to increase conversion. We focus on your customer, they focus on you.
                             </p>
                             <h6 className="uk-heading-line"><span>Suggested steps:</span></h6>
                             <ul data-uk-accordion className="uk-accordion">

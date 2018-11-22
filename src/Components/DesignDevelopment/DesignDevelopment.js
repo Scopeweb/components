@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 import Jumbotron from './Jumbotron/Jumbotron';
-import Wave from './Wave/Wave';
-import Heading from './Services/Services';
+import Heading from './Heading/Heading';
 import AnalyzeDesignDevelop from './TopCards/TopCards';
 import ProcessHeading from './ProcessHeading/ProcessHeading';
 import Steps from './Steps/Steps';
@@ -19,7 +18,6 @@ class About extends Component {
                     description="Scope Web has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
                 </Helmet>
                 <Jumbotron />
-                <Wave />
                 <Heading />
                 <AnalyzeDesignDevelop />
                 <ProcessHeading />
