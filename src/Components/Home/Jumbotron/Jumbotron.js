@@ -11,7 +11,7 @@ class Jumbotron extends Component {
                     <div className="uk-width-2-3@s uk-first-column">
                       <hr className="line pr__hr__primary" style={{width: 70}} />
                       <h2 className="title uk-heading-hero" style={{opacity: 1, transform: 'translateY(0px)'}}>People, Passion &amp; Technology.</h2>
-                      <a className="button uk-button uk-button-large uk-button-default uk-margin-top" href="/design-development" data-uk-scroll style={{opacity: 1, transform: 'translateY(0px)'}}>Getting Started</a>
+                      <a className="button uk-button uk-button-large uk-button-default uk-margin-top" href="/how-we-work" data-uk-scroll style={{opacity: 1, transform: 'translateY(0px)'}}>Getting Started</a>
                     </div>
                   </div>
                 </div>

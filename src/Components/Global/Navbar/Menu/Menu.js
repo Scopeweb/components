@@ -9,7 +9,7 @@ class Menu extends Component {
                     <ul>
                         <li><Link to='/' activeClassName="uk-active">Home</Link></li>
                         <li><Link to='/about' activeClassName="uk-active">About</Link></li>
-                        <li><Link to='/design-development' activeClassName="uk-active">Design &amp; Development</Link></li>
+                        <li><Link to='/how-we-work' activeClassName="uk-active">Design &amp; Development</Link></li>
                         <li><Link to='/blog' activeClassName="uk-active">Blog</Link></li>
                         <li><Link to='#pr__contact'>Start a Project</Link></li>
                     </ul>

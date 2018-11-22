@@ -24,7 +24,7 @@ class Footer extends Component {
                                 <a href="https://facebook.com/scopeweb" target="_blank" rel="noopener" className="icon pr-logo-facebook" />
                                 <a href="https://twitter.com/scopewebnyc" target="_blank" rel="noopener" className="icon pr-logo-twitter" />
                                 <a href="https://instagram.com/scopeweb" target="_blank" rel="noopener" className="icon pr-logo-instagram" />
-                                <a href="#" className="icon pr-logo-whatsapp" />
+                                <a href="https://wa.me/31621592938" className="icon pr-logo-whatsapp" />
                             </div>
                             </div>
                         </div>

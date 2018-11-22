@@ -16,7 +16,7 @@ class ServiceCards extends Component {
                   <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>
                     Your website is bigger than just a placeholder. It encompasses everything you do. From your products to customer experience, every touch point should be a true reflection of your company.
                   </p>
-                  <a href="/design-development" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
+                  <a href="/how-we-work" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 </div>
               </div>
               <div className="item feature-box" style={{opacity: 1, transform: 'translateY(0px)'}}>
@@ -27,7 +27,7 @@ class ServiceCards extends Component {
                   <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>
                     We're invested in your success. Every solution is created with your needs in mind to reach new audiences or the same audience in a different way. We're an extension of your business.
                   </p>
-                  <a href="/design-development" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
+                  <a href="/how-we-work" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 </div>
               </div>
               <div className="item feature-box" style={{opacity: 1, transform: 'translateY(0px)'}}>
@@ -38,7 +38,7 @@ class ServiceCards extends Component {
                   <p className="description" style={{opacity: 1, transform: 'translateY(0px)'}}>
                     The key to a successful partnership is collaboration. Open, transparent discussions will ensure that we exceed expectations, meet your deadline, and stay within budget.
                   </p>
-                  <a href="/design-development" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
+                  <a href="/how-we-work" className="link uk-position-cover" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 </div>
               </div>
             </div>

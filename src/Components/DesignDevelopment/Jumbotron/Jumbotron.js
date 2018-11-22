@@ -13,7 +13,7 @@ class Jumbotron extends Component {
                                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
                                     <li><a href="/">Home</a></li>
                                     <li><a href="/about">About</a></li>
-                                    <li className="uk-active"><a href="/design-development">Services</a></li>
+                                    <li className="uk-active"><a href="/how-we-work">Services</a></li>
                                     <li><a href="/blog">Blog</a></li>
                                     <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener noreferrer">Client Area</a></li>
                                     <li><a href="#pr__contact">Start a Project</a></li>
@@ -34,7 +34,7 @@ class Jumbotron extends Component {
                                         <ul>
                                             <li><Link to='/' activeclassname="uk-active">Home</Link></li>
                                             <li><Link to='/about' activeclassname="uk-active">About</Link></li>
-                                            <li className="uk-active"><Link to='/design-development' activeclassname="uk-active">Design &amp; Development</Link></li>
+                                            <li className="uk-active"><Link to='/how-we-work' activeclassname="uk-active">Design &amp; Development</Link></li>
                                             <li><Link to='/blog' activeclassname="uk-active">Blog</Link></li>
                                             <li><Link to='#pr__contact'>Start a Project</Link></li>
                                         </ul>

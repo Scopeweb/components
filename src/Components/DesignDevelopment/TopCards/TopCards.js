@@ -7,7 +7,7 @@ class TopCards extends Component {
                 <div className="section-outer">
                     <div className="section-heading">
                         <div class="uk-container uk-container-large">
-                            <div className="uk-child-width-1-3@s uk-grid uk-margin-medium-left uk-margin-medium-right" uk-grid>
+                            <div className="uk-child-width-1-3@s uk-grid" uk-grid>
                                 <div className="uk-first-column">
                                     <div className="uk-card uk-card-default uk-card-body">
                                         <h3 className="uk-card-title">1. Analyze</h3>

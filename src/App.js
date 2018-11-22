@@ -19,7 +19,7 @@ const App = () => (
       <Switch>
         <Route exact path='/' activeClassname="uk-active" component={Home}/>
         <Route path='/about' activeClassname="uk-active" component={About}/>
-        <Route path='/design-development' component={DesignDevelopment}/>
+        <Route path='/how-we-work' component={DesignDevelopment}/>
         <Route path='/blog' component={Blog}/>
       </Switch>
     </BrowserRouter>

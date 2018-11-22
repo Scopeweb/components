@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
-import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
 import Wave from './Wave/Wave';
 import Heading from './Services/Services';
 import AnalyzeDesignDevelop from './TopCards/TopCards';
 import ProcessHeading from './ProcessHeading/ProcessHeading';
+import Steps from './Steps/Steps';
+
 import Footer from '../Global/Footer/Footer';
 
 class About extends Component {
@@ -22,6 +23,7 @@ class About extends Component {
                 <Heading />
                 <AnalyzeDesignDevelop />
                 <ProcessHeading />
+                <Steps />
                 <Footer />
             </React.Fragment>
         );
