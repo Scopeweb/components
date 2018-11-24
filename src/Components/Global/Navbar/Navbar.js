@@ -20,15 +20,6 @@ class Navbar extends Component {
               <div className="navbar pr-font-second">
                 <nav className="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                   <Menu />
-                  {/* <ul>
-                    <li><a href="#pr__hero">Home</a></li>
-                    <li><a href="#pr__services">Services</a></li>
-                    <li><a href="#pr__works">Works</a></li>
-                    <li><a href="#pr__about">About</a></li>
-                    <li><a href="#pr__clients">Clients</a></li>
-                    <li><a href="#pr__blog">Blog</a></li>
-                    <li><a href="#pr__contact">Contact</a></li>
-                  </ul> */}
                 </nav>
               </div>
               <div className="navbar-tigger" data-uk-toggle="target: #navbar-mobile">

@@ -149,6 +149,10 @@ h6,
   font-size: 14px;
 }
 
+pr__header .text-light .menu>ul>li:hover {
+  color: #ffffff;
+}
+
 /* Blockquote */
 
 blockquote>p {
