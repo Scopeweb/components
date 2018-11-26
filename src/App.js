@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -12,6 +13,11 @@ import './Styles/Pixeicons.css';
 import './Styles/Animation.css';
 import './Styles/Layout.css';
 import './Styles/Style.css';
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-118350668-1');
+  history.listen(location => ReactGA.pageview(location.pathname));
+}
 
 const App = () => (
   <div className="App">
