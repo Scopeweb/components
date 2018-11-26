@@ -72,7 +72,7 @@ class ContactForm extends Component {
                         </div>
                         <div className="pr__form__group">
                             <label htmlFor="email">Your E-Mail <span className="required">*</span></label>
-                            <input className="pr-input" name="_replyto" type="text" />
+                            <input className="pr-input" name="_replyto" type="email" />
                         </div>
                         <div className="pr__form__group">
                         <div className="uk-child-width-1-3@s uk-grid uk-text-center" uk-grid>
