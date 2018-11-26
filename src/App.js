@@ -1,9 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import DesignDevelopment from './Components/DesignDevelopment/DesignDevelopment';
+import NoMatch from './Components/Global/NoMatch/NoMatch';
 
 import './Styles/Fonts.css';
 import './Styles/Normalize.min.css';
@@ -14,13 +15,14 @@ import './Styles/Style.css';
 
 const App = () => (
   <div className="App">
-    <BrowserRouter>
+    <Router>
       <Switch>
         <Route exact path='/' activeClassname="uk-active" component={Home}/>
-        <Route path='/about' activeClassname="uk-active" component={About}/>
-        <Route path='/how-we-work' component={DesignDevelopment}/>
+        <Route exact path='/about' activeClassname="uk-active" component={About}/>
+        <Route exact path='/how-we-work' component={DesignDevelopment}/>
+        <Route component={NoMatch} />
       </Switch>
-    </BrowserRouter>
+    </Router>
   </div>
 );
 

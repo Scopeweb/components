@@ -2758,3 +2758,11 @@ canvas {
 [name="input-checked"] {
   display: none;
 }
+
+.bg-dark {
+  background-color: #272e46;
+}
+
+.button-white {
+  color: #fff !important;
+}
