@@ -8,6 +8,7 @@ import Services from './Services/Services';
 import CaseStudies from './CaseStudies/CaseStudies';
 import About from './About/About';
 import Footer from '../Global/Footer/Footer';
+import ContactForm from '../Global/ContactForm/ContactForm';
 
 class Home extends Component {
 	render() {

@@ -2704,4 +2704,58 @@ canvas {
   .ReactModal__Content {
     width: 100% !important;
   }
+  .uk-card-default {
+    margin-bottom: 30px !important;
+  }
+}
+
+.pr__header.uk-sticky.pr__dark {
+  background-color: #313A5A;
+}
+
+.uk-button-dark {
+  background: #313A5A !important;
+  border: 2px solid #E9204F !important;
+  color: #ffffff !important;
+  position: relative;
+  z-index: 1;
+}
+
+.uk-button-dark:focus, 
+.uk-button-dark:hover {
+  color: #fff !important;
+  background-color: #E9204F !important;
+}
+
+.hover-card:hover {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.uk-checkbox, .uk-radio {
+  height: 16px !important;
+  width: 16px !important;
+  padding: 0 !important;
+  margin-top: 15px;
+  padding-bottom: -20px !important;
+}
+
+.uk-radio:checked+.uk-card.project-label {
+  background-image: -webkit-linear-gradient(225deg,#0242bb,#536ce2 25%,#4c41c8 50%,#4d88da 75%,#5c4beb) !important;
+  background-image: linear-gradient(-135deg,#0242bb,#536ce2 25%,#4c41c8 50%,#4d88da 75%,#5c4beb) !important;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+[name="input-checked"] {
+  display: none;
 }

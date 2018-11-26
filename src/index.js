@@ -1,21 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { configureStore } from './Store';
 import * as serviceWorker from './serviceWorker';
-import * as contentful from 'contentful';
+import App from './App';
+import { loadBlog } from './Store/Blog';
 
-var client = contentful.createClient({
-    space: '5bn9q0airq7w',
-    accessToken: '4b25a0a20b2ebc037d5b960990915530c5c87c6c0cb8d26f8bb67db56a8b42c7' })
-  client.getEntries().then(entries => {
-    entries.items.forEach(entry => {
-      if(entry.fields) {
-        console.log(entry.fields)
-      }
-    })
-  })
+const store = configureStore();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+store.dispatch(loadBlog());
+
+ReactDOM.render(
+  <Provider store={store}>
+    <Router>
+      <App />
+    </Router>
+  </Provider>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

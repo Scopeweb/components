@@ -20,7 +20,7 @@ class Menu extends Component {
                             <li><a href="https://medium.com/scopeweb" target="_blank" rel="noopener noreferrer">Blog</a></li>
                         </div>
                         <div class="uk-navbar-item">
-                            <button className="uk-button uk-button-default">Start a project</button>
+                            <button className="uk-button uk-button-dark">Start a project</button>
                         </div>
                     </ul>
                 </nav>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ContactForm from '../ContactForm/ContactForm';
 
 class Footer extends Component {
     render() {
@@ -15,9 +16,7 @@ class Footer extends Component {
                             </div>
                             </div>
                             <div className="pr__cta column uk-grid-margin uk-first-column">
-                            <div className="inner">
-                                <a id="pr__contact" href="#pr__contact__form" className="button uk-button uk-button-large uk-button-default" data-uk-toggle>Make an enquiry</a>
-                            </div>
+                            <ContactForm />
                             </div>
                             <div className="pr__social column uk-first-column uk-grid-margin">
                             <div className="inner">

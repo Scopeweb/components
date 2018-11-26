@@ -4,7 +4,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import DesignDevelopment from './Components/DesignDevelopment/DesignDevelopment';
-import Blog from './Components/Blog/Blog';
 
 import './Styles/Fonts.css';
 import './Styles/Normalize.min.css';
@@ -20,7 +19,6 @@ const App = () => (
         <Route exact path='/' activeClassname="uk-active" component={Home}/>
         <Route path='/about' activeClassname="uk-active" component={About}/>
         <Route path='/how-we-work' component={DesignDevelopment}/>
-        <Route path='/blog' component={Blog}/>
       </Switch>
     </BrowserRouter>
   </div>
