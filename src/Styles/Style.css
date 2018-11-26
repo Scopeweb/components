@@ -2750,8 +2750,7 @@ canvas {
 }
 
 .uk-radio:checked+.uk-card.project-label {
-  background-image: -webkit-linear-gradient(225deg,#0242bb,#536ce2 25%,#4c41c8 50%,#4d88da 75%,#5c4beb) !important;
-  background-image: linear-gradient(-135deg,#0242bb,#536ce2 25%,#4c41c8 50%,#4d88da 75%,#5c4beb) !important;
+  background: #FF5252 !important;
   color: #ffffff;
   font-weight: 300;
 }

@@ -65,14 +65,14 @@ class ContactForm extends Component {
                         <button className="uk-modal-close-full uk-close uk-icon" type="button" data-uk-close="ratio: 2;" onClick={this.closeModal}><span>Close</span></button>
                     <h2 className="uk-modal-title uk-h1">Let's Talk?</h2>
                     <p>Let’s make something awesome together</p>
-                    <form className="pr__contact pr__form" action="includes/sendemail.php" noValidate="novalidate">
+                    <form className="pr__contact pr__form" action="https://formspree.io/info@scopeweb.nyc" method="POST">
                         <div className="pr__form__group">
                             <label htmlFor="name">Your Name <span className="required">*</span></label>
-                            <input className="pr-input" id="name" name="name" type="text" />
+                            <input className="pr-input"     name="name" type="text" />
                         </div>
                         <div className="pr__form__group">
                             <label htmlFor="email">Your E-Mail <span className="required">*</span></label>
-                            <input className="pr-input" id="email" name="email" type="text" />
+                            <input className="pr-input" name="_replyto" type="text" />
                         </div>
                         <div className="pr__form__group">
                         <div className="uk-child-width-1-3@s uk-grid uk-text-center" uk-grid>
@@ -109,8 +109,8 @@ class ContactForm extends Component {
                             <label htmlFor="budget">What's your budget range?</label>
                             <select className="uk-select" id="budget" name="budget">
                                 <option>&nbsp;</option>
-                                <option>Low budget</option>
-                                <option>$1,000 — $2,000</option>
+                                <option value="Low budget">Low budget</option>
+                                <option value="$1,000 - $2,000">$1,000 — $2,000</option>
                                 <option>$2,000 — $5,000</option>
                                 <option>$5,000 — $10,000</option>
                                 <option>$10,000+</option>
@@ -121,7 +121,7 @@ class ContactForm extends Component {
                             <textarea className="pr-textarea" id="message" name="message" defaultValue={""} />
                         </div>
                         <p className="pr__form__group uk-margin-large">
-                            <button className="uk-button uk-button-large uk-button-primary" type="submit">Send message</button>
+                            <button className="uk-button uk-button-large uk-button-primary" type="submit" value="Send">Send message</button>
                         </p>
                     </form>
                     </div>
