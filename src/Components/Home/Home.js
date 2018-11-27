@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
+import ReactGA from 'react-ga';
 
 import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
@@ -10,7 +11,22 @@ import About from './About/About';
 import Footer from '../Global/Footer/Footer';
 import ContactForm from '../Global/ContactForm/ContactForm';
 
+export const initGA= () => {
+  console.log('GAinit')
+  ReactGA.initialize('UA-129909734-1')
+}
+export const logPageView = () => {
+  ReactGA.set({ page: window.location.pathname})
+  ReactGA.pageview(window.location.pathname)
+}
+
 class Home extends Component {
+
+  componentDidMount () {
+    initGA()
+    logPageView()
+  }
+
 	render() {
 
 		return (

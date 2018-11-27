@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ReactGA from 'react-ga';
 
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -13,15 +12,6 @@ import './Styles/Pixeicons.css';
 import './Styles/Animation.css';
 import './Styles/Layout.css';
 import './Styles/Style.css';
-
-export const initGA= () => {
-  console.log('GAinit')
-  ReactGA.initialize('UA-129909734-1')
-}
-export const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname})
-  ReactGA.pageview(window.location.pathname)
-}
 
 const App = () => (
   <div className="App">
