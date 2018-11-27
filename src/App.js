@@ -14,9 +14,13 @@ import './Styles/Animation.css';
 import './Styles/Layout.css';
 import './Styles/Style.css';
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-000000-01');
-  ReactGA.pageview(window.location.pathname + window.location.search);
+export const initGA= () => {
+  console.log('GAinit')
+  ReactGA.initialize('UA-129909734-1')
+}
+export const logPageView = () => {
+  ReactGA.set({ page: window.location.pathname})
+  ReactGA.pageview(window.location.pathname)
 }
 
 const App = () => (
