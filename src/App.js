@@ -15,8 +15,8 @@ import './Styles/Layout.css';
 import './Styles/Style.css';
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-118350668-1');
-  history.listen(location => ReactGA.pageview(location.pathname));
+  ReactGA.initialize('UA-000000-01');
+  ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
 const App = () => (
