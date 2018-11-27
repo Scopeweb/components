@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import NavDarkContact from '../../NavDarkContact/NavDarkContact';
+
 class Menu extends Component {
     render() {
         return (
@@ -19,9 +21,7 @@ class Menu extends Component {
                         <div class="uk-navbar-item">
                             <li><a href="https://medium.com/scopeweb" target="_blank" rel="noopener noreferrer">Blog</a></li>
                         </div>
-                        <div class="uk-navbar-item">
-                            <button className="uk-button uk-button-dark">Start a project</button>
-                        </div>
+                        <NavDarkContact />
                     </ul>
                 </nav>
             </div>

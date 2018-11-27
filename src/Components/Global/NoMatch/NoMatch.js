@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavbarDark from '../NavbarDark/NavbarDark';
 import Footer from '../Footer/Footer';
 
@@ -27,7 +28,7 @@ const NoMatch = () => {
                       <h1 style={{color: '#fff'}}>Resource not found <small>Error 404</small></h1>
                       <p style={{color: '#fff', fontWeight: 400}}>The requested resource could not be found but may be available again in the future.</p>
                       <div className="uk-navbar-item">
-                        <button className="button-white uk-button uk-button-large uk-button-default">Go back to homepage</button>
+                        <Link to="/"><button className="button-white uk-button uk-button-large uk-button-default">Go back to homepage</button></Link>
                       </div>
                     </div>
                   </div>
