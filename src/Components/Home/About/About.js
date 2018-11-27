@@ -1,10 +1,26 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import YouTube from 'react-youtube';
 
 import OfficeNYC from '../../../Images/office-nyc.png';
 import OfficeNL from '../../../Images/office-nl.png';
 
+export const initGA= () => {
+    console.log('GAinit')
+    ReactGA.initialize('UA-129909734-1')
+  }
+  export const logPageView = () => {
+    ReactGA.set({ page: window.location.pathname})
+    ReactGA.pageview(window.location.pathname)
+  }
+
 class About extends Component {
+
+    componentDidMount () {
+        initGA()
+        logPageView()
+    }
+
     render() {
         const opts = {
             height: '600',
