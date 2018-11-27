@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import StepAnalyze from './StepAnalyze/StepAnalyze';
 import StepDesign from './StepDesign/StepDesign';
 import StepDevelop from './StepDevelop/StepDevelop';
-import SideBar from './SideBar/SideBar';
 
 class Steps extends Component {
     render() {
@@ -20,7 +19,6 @@ class Steps extends Component {
                                     <StepDevelop />
                                 </main>
                             </div>
-                            <SideBar />
                             </div>
                         </div>
                     </div>

@@ -16,12 +16,12 @@ import './Styles/Style.css';
 const App = () => (
   <div className="App">
     <Router>
-      <Switch>
-        <Route exact path='/' activeClassname="uk-active" component={Home}/>
-        <Route exact path='/about' activeClassname="uk-active" component={About}/>
-        <Route exact path='/how-we-work' component={DesignDevelopment}/>
-        <Route component={NoMatch} />
-      </Switch>
+        <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route path='/about' component={About}/>
+            <Route path='/how-we-work' component={DesignDevelopment}/>
+            <Route component={NoMatch} />
+        </Switch>
     </Router>
   </div>
 );

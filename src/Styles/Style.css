@@ -2392,12 +2392,12 @@ body #site-wrapper {
   }
 
   .pr__header .inner .navbar .menu>ul>li:hover a,
-  .pr__header .inner .navbar .menu>ul>li.uk-active a {
+  .pr__header .inner .navbar .menu>ul>li>a.uk-active a {
     color: #E9204F;
   }
 
   .pr__header .inner .navbar .menu>ul>li:hover a:after,
-  .pr__header .inner .navbar .menu>ul>li.uk-active a:after {
+  .pr__header .inner .navbar .menu>ul>li>a.uk-active a:after {
     width: 20px;
     color: #E9204F;
   }
@@ -2742,7 +2742,7 @@ canvas {
 .uk-radio:checked+.uk-card.project-label {
   background: #FF5252 !important;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 [name="input-checked"] {

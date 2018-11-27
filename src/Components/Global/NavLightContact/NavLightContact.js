@@ -49,7 +49,7 @@ class NavLightContact extends Component {
       render() {
         return (
           <div>
-            <div class="uk-navbar-item" onClick={this.openModal}>
+            <div className="uk-navbar-item" onClick={this.openModal}>
                 <button className="uk-button uk-button-default">Start a project</button>
             </div>
             <Modal

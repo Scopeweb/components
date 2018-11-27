@@ -77,7 +77,7 @@ class About extends Component {
                             </div>
                         </div>
                         </div>
-                        {/* <div className="about-boxes uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-margin-large-top" data-uk-grid>
+                        <div className="about-boxes uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-margin-large-top" data-uk-grid>
                             <div className="item about-box uk-first-column">
                                 <div className="outer">
                                     <div className="inner">
@@ -108,7 +108,7 @@ class About extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>{/* Container End */}
                     </div>{/* Inner End */}
                 </div>{/* Outer End */}

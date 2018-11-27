@@ -13,7 +13,7 @@ class Jumbotron extends Component {
                                 <hr className="line pr__hr__primary" style={{width: 70}} />
                                 <h2 className="title uk-heading-hero" style={{opacity: 1, transform: 'translateY(0px)'}}>People, Passion &amp; Technology.</h2>
                                 <Link to="/how-we-work">
-                                    <button class="uk-button uk-button-large uk-button-default uk-margin-top">Dicover how we work</button>
+                                    <button className="uk-button uk-button-large uk-button-default uk-margin-top">Discover how we work</button>
                                 </Link>
                             </div>
                         </div>
