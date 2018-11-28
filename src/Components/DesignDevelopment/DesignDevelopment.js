@@ -30,7 +30,7 @@ class About extends Component {
         return (
             <React.Fragment>
                 <Helmet>
-                    title="Design &amp; Development | NYC Web Design &amp; Development | Scope Web"
+                    title="Scope NYC · How we work · Design &amp; Development"
                     description="Scope Web has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
                 </Helmet>
                 <NavbarDark />
