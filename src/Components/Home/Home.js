@@ -33,7 +33,7 @@ class Home extends Component {
       <React.Fragment>
         <Helmet 
           title="Scope NYC · Web &amp; Mobile Apps for Industry leaders"
-          description="Hi. We are Scope Web. An award-winning Web &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today."
+          description="Hi. We are Scope. An award-winning Web &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today."
         />
         <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
         <div className="pr__hero__wrap" id="site-hero">

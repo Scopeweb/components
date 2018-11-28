@@ -53,7 +53,7 @@ class OurValues extends Component {
                                 </div>
                                 <div className="right uk-width-3-5@s">
                                     <p>
-                                        The team is guided by industry stalwarts; Ray Antonio, Stephan Moerman, and Marc Edun are the driving force behind Scope Web. 
+                                        The team is guided by industry stalwarts; Ray Antonio, Stephan Moerman, and Marc Edun are the driving force behind Scope. 
                                         Their experience and deep understanding of digital marketing and technology is shared 
                                         with passion and clarity you’ll find hard to find elsewhere.
                                     </p>

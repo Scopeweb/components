@@ -34,7 +34,7 @@ class About extends Component {
                                         <span className="subtitle pr__heading__secondary">We're more than a digital agency</span>
                                     </div>
                                     <div className="right uk-width-3-5@s">
-                                        <p>Great businesses rise to the top with the right amount of agitation. We shake things up. At Scope Web we imagine, plan and bring consumer internet experience to life. We provide a mixture of consulting, design and engineering.</p>
+                                        <p>Great businesses rise to the top with the right amount of agitation. We shake things up. At Scope we imagine, plan and bring consumer internet experience to life. We provide a mixture of consulting, design and engineering.</p>
                                     </div>
                                 </div>
                             </div>{/* Container End */}

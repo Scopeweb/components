@@ -34,7 +34,7 @@ class Footer extends Component {
                 <div className="pr__footer__center uk-section uk-section-small">
                     <div className="uk-container">
                     <ul>
-                        <li><a href="tel:+31685661069">Phone<span className="phone">+31685661069</span></a></li>
+                        <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener" >Support<span className="phone">clients.scopeweb.nyc</span></a></li>
                         <li><a href="mailto:info@scopeweb.nyc">Email<span className="phone">info@scopeweb.nyc</span></a></li>
                     </ul>
                     </div>

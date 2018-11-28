@@ -21,7 +21,7 @@ class StepDevelop extends Component {
                             <div className="uk-column-1-2@m uk-margin-medium">
                                 <dl className="uk-description-list">
                                     <dt><i className="icon pr-checkmark-circle" /> Web Development.</dt>
-                                    <dd>Scope Web is a dedicated provider of Web design and development services. A decade of continuous work put into 
+                                    <dd>Scope is a dedicated provider of Web design and development services. A decade of continuous work put into 
                                     this domain, has fetched us unmatched experience and expertise. We can safely declare ourselves to be the one best 
                                     web designers and developers worldwide.</dd>
                                     <dt><i className="icon pr-checkmark-circle" /> Mobile Apps.</dt>
@@ -32,7 +32,7 @@ class StepDevelop extends Component {
                             </div>
                             <h6 className="uk-heading-line"><span>Testimonial:</span></h6>
                             <blockquote className="uk-text-left">
-                                <p>Scope Web took over our existing site and right from the word go they impressed us. They helped us in rebranding our 
+                                <p>Scope took over our existing site and right from the word go they impressed us. They helped us in rebranding our 
                                 logo and redesign our website. We get great compliments on our site and we are extremely pleased with the results we have 
                                 received so far. I was impressed all around with their skills, customer service and attention to details.</p>
                                 <footer><strong>Peter M.</strong> – Managing Director</footer>

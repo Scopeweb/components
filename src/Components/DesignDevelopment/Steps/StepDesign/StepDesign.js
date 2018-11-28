@@ -32,7 +32,7 @@ class StepDesign extends Component {
                             </div>
                             <h6 className="uk-heading-line"><span>Testimonial:</span></h6>
                             <blockquote className="uk-text-left">
-                                <p>We were referred to Scope Web by a friend and since then we have been a very happy and satisfied customer. Stephan &amp; his 
+                                <p>We were referred to Scope by a friend and since then we have been a very happy and satisfied customer. Stephan &amp; his 
                                 entire team worked tirelessly to help us develop our business and expand into new areas. They helped not just with Marketing &amp;
                                 Branding, but also with web hosting, SEO, Social Media, Business Consultation and more. We are glad to have them as our development 
                                 &amp; marketing partners.</p>

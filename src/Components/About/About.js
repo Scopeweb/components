@@ -29,7 +29,7 @@ class About extends Component {
             <React.Fragment>
                 <Helmet 
                     title="About · Scope NYC · Passion, People &amp; Technology"
-                    description="Scope Web has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
+                    description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
                 />
                 <NavbarDark />
                 <Jumbotron />

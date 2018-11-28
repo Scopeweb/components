@@ -229,7 +229,7 @@ strong {
 .pr__header .inner .logo .brand {
   display: inline-block;
   width: 100%;
-  height: 35px;
+  height: 60px;
   background-image: url("../Images/logo.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,7 +238,7 @@ strong {
 .pr__header .inner .logo .brand-light {
   display: inline-block;
   width: 100%;
-  height: 35px;
+  height: 60px;
   background-image: url("../Images/logo-light.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2339,7 +2339,7 @@ body #site-wrapper {
   }
 
   .pr__header .inner .logo .brand {
-    height: 35px;
+    height: 60px;
   }
 
   .pr__header .inner .navbar {

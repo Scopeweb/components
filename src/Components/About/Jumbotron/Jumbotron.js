@@ -12,10 +12,10 @@ class Jumbotron extends Component {
                             <div className="uk-container">
                                 <div className="inner uk-grid" data-uk-grid="true">
                                     <div className="left uk-width-expand uk-first-column">
-                                        <h2 className="page-title uk-h1" style={{opacity: 1, transform: 'translateY(0px)'}}>About Scope Web</h2>
+                                        <h2 className="page-title uk-h1" style={{opacity: 1, transform: 'translateY(0px)'}}>About Scope</h2>
                                     </div>
                                     <div className="right uk-width-3-5@s">
-                                        <p className="header-title">Scope Web is a people-first company. We strive to create a unique, engaging work environment that fosters creativity, loyalty and long-term commitment of our employees to the company thus makes our customers happy. What’s paramount for us is the relationships we build.</p>
+                                        <p className="header-title">Scope is a people-first company. We strive to create a unique, engaging work environment that fosters creativity, loyalty and long-term commitment of our employees to the company thus makes our customers happy. What’s paramount for us is the relationships we build.</p>
                                     </div>
                                 </div>
                             </div>
