@@ -53,8 +53,8 @@ class OurValues extends Component {
                                 </div>
                                 <div className="right uk-width-3-5@s">
                                     <p>
-                                        The team is guided by industry stalwarts; Ray Antonio De Jesus and Stephan Moerman are the original founders of Scope Web. 
-                                        They’re less hands on these days, but their experience and deep understanding of digital marketing and technology is shared 
+                                        The team is guided by industry stalwarts; Ray Antonio, Stephan Moerman, and Marc Edun are the driving force behind Scope Web. 
+                                        Their experience and deep understanding of digital marketing and technology is shared 
                                         with passion and clarity you’ll find hard to find elsewhere.
                                     </p>
                                 </div>
