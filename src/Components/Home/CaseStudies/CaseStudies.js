@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import Image from 'react-image-webp';
 
 import bayron from '../../../Images/bayron-home-improvements_case_image.png';
+import bayronwebp from '../../../Images/bayron-home-improvements_case_image.webp'
 import goremote from '../../../Images/go-remote_case_image.png';
+import goremotewebp from '../../../Images/go-remote_case_image.webp';
 import gemini from '../../../Images/gemini-gas-springs_case_image.png'
+import geminiwebp from '../../../Images/gemini-gas-springs_case_image.webp';
 
 class CaseStudies extends Component {
     render() {
@@ -17,9 +21,9 @@ class CaseStudies extends Component {
                                     <h2 className="title uk-h1">Works.</h2>
                                     <span className="subtitle pr__heading__secondary">Things we've made</span>
                                 </div>
-                                <div className="right">
+                                {/* <div className="right">
                                     <a className="button uk-button uk-button-default" href="/work">View all</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -39,7 +43,7 @@ class CaseStudies extends Component {
                             <div className="project-cta">View case study</div>
                         </div>
                         <div className="right">
-                            <img className="case-img__bayron" src={bayron} alt="Bayron Home Improvements case study" />
+                            <Image className="case-img__bayron" src={bayron} webp={bayronwebp} alt="Bayron Home Improvements case study" />
                         </div>
                     </div>
                     </a>
@@ -59,7 +63,7 @@ class CaseStudies extends Component {
                             <div className="project-cta">View case study</div>
                         </div>
                         <div className="right uk-grid-margin uk-first-column">
-                            <img className="case-img__goremote" src={goremote} alt="GoRemote job board" />
+                            <Image className="case-img__goremote" src={goremote} webp={goremotewebp} alt="GoRemote job board case study" />
                         </div>
                     </div>
                     </a>
@@ -79,7 +83,7 @@ class CaseStudies extends Component {
                             <div className="project-cta">View case study</div>
                         </div>
                         <div className="right uk-grid-margin uk-first-column">
-                            <img className="case-img_gemini" src={gemini} alt="Gemini Gas Springs case study" />
+                            <Image className="case-img__gemini" src={gemini} webp={geminiwebp} alt="Gemini Gas Springs case study" />
                         </div>
                     </div>
                     </a>

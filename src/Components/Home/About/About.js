@@ -82,9 +82,9 @@ class About extends Component {
                                 <div className="outer">
                                     <div className="inner">
                                         <h3 className="title uk-h5">Who we are</h3>
-                                        <p className="description">Bring to the table win-win survival strategies to
-                                        ensure proactive domination. At the end of the day, going forward will
-                                        have multiple touchpoints for offshoring.</p>
+                                        <p className="description">We are a team of creative professionals, thriving 
+                                        to build forward-thinking technology &amp; experiences. Working with people that
+                                        challenge us creatively helps us thrive.</p>
                                     </div>
                                 </div>
                             </div>
@@ -92,26 +92,26 @@ class About extends Component {
                                 <div className="outer">
                                     <div className="inner">
                                         <h3 className="title uk-h5">Our philosophy</h3>
-                                        <p className="description">A new normal that has evolved from generation X is
-                                        on the runway heading towards a streamlined cloud solution. User
-                                        generated content in real-time.</p>
+                                        <p className="description">Great product design &amp; software development
+                                        rely on years of experience &amp; an in-depth understanding of industry
+                                        standards, challenges and opportunities.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="item about-box uk-grid-margin uk-first-column">
                                 <div className="outer">
                                     <div className="inner">
-                                        <h3 className="title uk-h5">How we work</h3>
-                                        <p className="description">Capitalize on low hanging fruit to identify a
-                                        ballpark value added activity to beta test. Override the digital divide
-                                        with additional clickthroughs from DevOps.</p>
+                                        <h3 className="title uk-h5">Our drive</h3>
+                                        <p className="description">Every member of our team is genuinely passionate about 
+                                        doing great work for brands we believe in — from global tech giants, to 
+                                        ambitious startups.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>{/* Container End */}
-                    </div>{/* Inner End */}
-                </div>{/* Outer End */}
+                    </div>
+                    </div>
+                </div>
                 </section>
         );
     }

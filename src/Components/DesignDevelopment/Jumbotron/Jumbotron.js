@@ -10,9 +10,10 @@ class Jumbotron extends Component {
                     <section className="pr__hero uk-section" id="pr__hero">
                         <div className="section-inner">
                             <div className="uk-container">
+                            <hr className="line pr__hr__secondary" style={{width: 70}} />
                                 <div className="inner uk-grid" data-uk-grid="true">
                                     <div className="left uk-width-expand uk-first-column">
-                                        <h2 className="page-title uk-h1" style={{opacity: 1, transform: 'translateY(0px)'}}>Our Services</h2>
+                                        <h2 className="page-title uk-heading-primary" style={{opacity: 1, transform: 'translateY(0px)'}}>Our Services</h2>
                                     </div>
                                     <div className="right uk-width-3-5@s">
                                         <p className="header-title">This is where your ideas evolve into products. We work fast, but we do not do it alone. We expect you to do the heavy lifting with us. We are the in-house team outside the house. We transform businesses into brands and help them grow online.</p>
