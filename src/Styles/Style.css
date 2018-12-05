@@ -1,4 +1,4 @@
-/* Table of content  
+/* Table of content
 ---------------------------------------------------
 01. Body
 02. Typogaphy
@@ -10,7 +10,7 @@
 08. Responsive
 --------------------------------------------------- */
 
-/* 01. Body 
+/* 01. Body
 --------------------------------------------------- */
 
 /* Global */
@@ -58,7 +58,7 @@ h5,
   color: #101010;
 }
 
-/* 02. Typography 
+/* 02. Typography
 --------------------------------------------------- */
 
 /* Body */
@@ -2721,7 +2721,7 @@ canvas {
   z-index: 1;
 }
 
-.uk-button-dark:focus, 
+.uk-button-dark:focus,
 .uk-button-dark:hover {
   color: #fff !important;
   background-color: #E9204F !important;
@@ -2755,4 +2755,13 @@ canvas {
 
 .button-white {
   color: #fff !important;
+}
+
+.share-icon {
+  display: inline-block;
+  margin: 20px 15px 0 0;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
 }
