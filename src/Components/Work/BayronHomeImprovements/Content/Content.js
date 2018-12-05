@@ -23,7 +23,7 @@ import BayronCaseIMG04webp from '../../../../Images/bayron-case-img-04.webp';
 export default class Content extends Component {
   render() {
     const shareUrl = 'https://scopeweb.nyc/work/bayron-home-improvements';
-    const title = 'Scope Web NYC · Case Study · Bayron Home Improvements';
+    const title = 'Learn more about the website we built for Bayron Home Improvements';
     return (
       <div className="pr__content" id="site-content">
         <div
@@ -170,14 +170,14 @@ export default class Content extends Component {
                               </li>
                             </ul>
                           </div>
-                          <div className="pr__entry__share pr__small mt-20">
-                            <TwitterShareButton url={shareUrl} quote={title} className="share-icon">
+                          <div className="pr__entry__share pr__small mtn-45">
+                            <TwitterShareButton url={shareUrl} title={title} via="scopewebnyc" className="share-icon">
                               <TwitterIcon size={25} round />
                             </TwitterShareButton>
                             <FacebookShareButton url={shareUrl} quote={title} className="share-icon">
                               <FacebookIcon size={25} round />
                             </FacebookShareButton>
-                            <LinkedinShareButton url={shareUrl} quote={title} className="share-icon">
+                            <LinkedinShareButton url={shareUrl} title={title} className="share-icon">
                               <LinkedinIcon size={25} round />
                             </LinkedinShareButton>
                           </div>
@@ -186,7 +186,7 @@ export default class Content extends Component {
                               href="https://www.bayroninc.com" target="_blank" rel="noopener"
                               className="button uk-button uk-button-default uk-width-1-1"
                             >
-                              Visite site
+                              Visit site
                             </a>
                           </div>
                         </div>
