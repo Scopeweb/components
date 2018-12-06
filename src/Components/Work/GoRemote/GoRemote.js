@@ -16,7 +16,7 @@ export const logPageView = () => {
   ReactGA.pageview(window.location.pathname);
 };
 
-class BayronHomeImprovements extends Component {
+class GoRemote extends Component {
   componentDidMount() {
     initGA();
     logPageView();
@@ -26,7 +26,7 @@ class BayronHomeImprovements extends Component {
     return (
       <React.Fragment>
         <Helmet
-          title="Bayron Home Improvements Case Study · Scope NYC"
+          title="GoRemote Case Study · Scope NYC"
           description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
         />
         <NavbarDark />
@@ -40,4 +40,4 @@ class BayronHomeImprovements extends Component {
   }
 }
 
-export default BayronHomeImprovements;
+export default GoRemote;

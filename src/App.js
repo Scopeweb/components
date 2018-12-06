@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import DesignDevelopment from './Components/DesignDevelopment/DesignDevelopment';
-import Work from './Components/Work/Work';
 import BayronHomeImprovements from './Components/Work/BayronHomeImprovements/BayronHomeImprovements';
+import GoRemote from './Components/Work/GoRemote/GoRemote';
 import NoMatch from './Components/Global/NoMatch/NoMatch';
 
 import './Styles/Fonts.css';
@@ -23,7 +23,7 @@ const App = ({ match }) => (
             <Route exact path='/about' component={About}/>
             <Route exact path='/how-we-work' component={DesignDevelopment}/>
             <Route path='/work/bayron-home-improvements' component={BayronHomeImprovements} />
-            <Route exact path='/work' component={Work}/>
+            <Route path='/work/goremote' component={GoRemote} />
             <Route component={NoMatch} />
         </Switch>
     </Router>

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import Image from 'react-image-webp';
 
 import OfficeNYC from '../../../Images/office-nyc.png';
+import OfficeNYCwebp from '../../../Images/office-nyc.webp'
 import OfficeNL from '../../../Images/office-nl.png';
+import OfficeNLwebp from '../../../Images/office-nl.webp';
 
 class About extends Component {
     render() {
@@ -42,7 +45,7 @@ class About extends Component {
                                 <div className="right uk-width-1-3@m uk-grid-margin uk-first-column">
                                     <div className="item gallery-box small">
                                         <div className="outer">
-                                            <div className="image pr__image__cover" data-src="assets/images/about_03.jpg" data-uk-img style={{ backgroundImage: `url(${OfficeNYC})` }} />
+                                            <div className="image pr__image__cover" data-src={OfficeNYC} webp={OfficeNYCwebp} data-uk-img style={{ backgroundImage: `url(${OfficeNYC})` }} />
                                             <div className="inner">
                                                 <h3 className="title uk-h5">Send us an Email</h3>
                                                 <p className="description">New York City</p>
@@ -52,7 +55,7 @@ class About extends Component {
                                     </div>
                                     <div className="item gallery-box small">
                                         <div className="outer">
-                                            <div className="image pr__image__cover" data-src="assets/images/about_02.jpg" data-uk-img style={{ backgroundImage: `url(${OfficeNL})` }} />
+                                        <div className="image pr__image__cover" data-src={OfficeNL} webp={OfficeNLwebp} data-uk-img style={{ backgroundImage: `url(${OfficeNL})` }} />
                                             <div className="inner">
                                                 <h3 className="title uk-h5">Send us an Email</h3>
                                                 <p className="description">The Netherlands</p>
