@@ -9,7 +9,6 @@ import Services from './Services/Services';
 import CaseStudies from './CaseStudies/CaseStudies';
 import About from './About/About';
 import Footer from '../Global/Footer/Footer';
-import ContactForm from '../Global/ContactForm/ContactForm';
 
 export const initGA= () => {
   console.log('GAinit')
@@ -31,7 +30,7 @@ class Home extends Component {
 
 		return (
       <React.Fragment>
-        <Helmet 
+        <Helmet
           title="Scope NYC · Web &amp; Mobile Apps for Industry leaders"
           description="Hi. We are Scope. An award-winning Web &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today."
         />
