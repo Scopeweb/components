@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "contentful": "^7.0.5",
+    "dotenv": "^6.2.0",
     "jquery": "^3.3.1",
     "moment": "^2.22.2",
     "react": "^16.6.3",
@@ -25,7 +27,8 @@
     "redux-devtools-extension": "^2.13.6",
     "redux-thunk": "^2.3.0",
     "styled-components": "^4.1.1",
-    "uikit": "^3.0.0-rc.23"
+    "uikit": "^3.0.0-rc.23",
+    "validator": "^10.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
