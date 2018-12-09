@@ -73,7 +73,7 @@ class UxDesign extends Component {
                   Then we create prototypes and test our ideas with real users. This way we can really get more feedback about your upcoming product’s usability.
                   Finally, we find the perfect look for your product. After deciding on the visual details our designers create the final, pixel perfect screens.
                 </p>
-                <p>Recognising the need for a strong UX strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
+                <p>Recognizing the need for a strong UX strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>

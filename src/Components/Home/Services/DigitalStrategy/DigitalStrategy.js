@@ -69,7 +69,7 @@ class DigitalStrategy extends Component {
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 <p>Knowing where to start can be a very daunting task, but it doesn't have to be a stressful one as we are here to guide you through every step of the process. We can facilitate bespoke strategy workshops that give you the tools and confidence to put together your own comprehensive marketing strategy or can act as an extension to your marketing department by producing an actionable plan for you to implement.</p>
                 <p>Marketing strategies can take various guises depending on your business and marketing objectives, so understanding these will determine if you need to focus your efforts and budget on social media or whether a content marketing strategy is more applicable. Our robust approach focuses on five main pillars that make up a marketing strategy.</p>
-                <p>Recognising the need for a digital marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
+                <p>Recognizing the need for a digital marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>

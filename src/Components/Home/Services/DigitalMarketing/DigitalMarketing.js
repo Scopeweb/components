@@ -70,7 +70,7 @@ class DigitalMarketing extends Component {
                 <p>In the digital age, producing rich content to attract audiences is necessary. As a creative agency, our capable strategists build digital content that drives human connection and conversation through storytelling.</p>
                 <p>Google provides more ROI than any other digital platform. Most people find us through a Google search, and we’re ranked in the top positions for the most competitive terms in our industry. We help our partners do the same.</p>
                 <p>Knowing how to cut through the noisy web takes skill. We analyze the digital channel to find smart opportunities, and build growth hacking tactics to help you become a market leader. </p>
-                <p>Recognising the need for a strong Digital Marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
+                <p>Recognizing the need for a strong Digital Marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>

@@ -14,7 +14,7 @@ const customStyles = {
       overflowY             : 'auto'
     }
   };
-  
+
   // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
   Modal.setAppElement('#root')
 
@@ -24,11 +24,11 @@ class ContentStrategy extends Component {
         super(props);
 
         this.onClick = this.onClick.bind(this);
-    
+
         this.state = {
           modalIsOpen: false
         };
-    
+
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
       }
@@ -36,15 +36,15 @@ class ContentStrategy extends Component {
       onClick() {
           window.location.href = `mailto:info@scopeweb.nyc`;
       }
-    
+
       openModal() {
         this.setState({modalIsOpen: true});
       }
-    
+
       closeModal() {
         this.setState({modalIsOpen: false});
       }
-    
+
       render() {
         return (
           <div>
@@ -70,7 +70,7 @@ class ContentStrategy extends Component {
                 <p>Stories matter. Good ones make a difference. We launch brands through innovative marketing, from conception to creation to conversion. With analytics tracking and campaign measurement, we combine the creative power of in-house writers, designers and videographers with the search data of your highest-value prospects.</p>
                 <p>We employ creative storytellers from the U.S. who are trained to use digital tools to inform great content. Strong copywriting attracts more clicks and more conversations – it’s likely one of the first entry points into your sales funnel.</p>
                 <p>Combining industry-focused content writers who excel at nailing tone, style and subject matter with experienced content marketing strategists and project managers, Scope ensures you can count on a copywriting services team that speaks to your target audience, drives commercial results and sticks to your deadlines.</p>
-                <p>Recognising the need for a strong Content Creation strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
+                <p>Recognizing the need for a strong Content Creation strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>

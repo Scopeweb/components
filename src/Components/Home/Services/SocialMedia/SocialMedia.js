@@ -77,7 +77,7 @@ class SocialMedia extends Component {
                   <li>Reporting &amp; Analysis</li>
                   <li>Cross Channel Promotion</li>
                 </ul>
-                <p>Recognising the need for a digital marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
+                <p>Recognizing the need for a digital marketing strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>

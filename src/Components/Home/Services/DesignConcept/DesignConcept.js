@@ -75,7 +75,7 @@ class DesignConcept extends Component {
                     <li>If we know they’re an existing customer and they’re on a location aware mobile device, what content or feature would they find most useful?</li>
                 </ul>
                 <p>Wireframes are the documents that we output from this process, they’re essentially static (or interactive) sketches that demonstrate the content, features and navigation a page will have. They also become the blueprint for designers, developers, content writers, animators and SEO teams to all have a say and understand what a specific page needs to do and what they need to do to bring it into reality.</p>
-                <p>Recognising the need for a strong Design &amp; Concept strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message 📬</p>
+                <p>Recognizing the need for a strong Design &amp; Concept strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>
