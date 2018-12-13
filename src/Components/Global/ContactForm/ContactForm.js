@@ -77,26 +77,26 @@ class ContactForm extends Component {
                         <div className="pr__form__group">
                         <div className="uk-child-width-1-3@s uk-grid uk-text-center" uk-grid>
                             <div>
-                                <label htmlFor="input-frontend">
-                                    <input class="uk-radio project-choice" type="radio" name="input-checked" id="input-frontend" />
+                                <label htmlFor="input-web">
+                                    <input class="uk-radio project-choice" type="radio" name="input-checked" id="input-web" value="web project" />
                                     <div className="uk-card uk-card-default uk-card-body hover-card project-label">
                                     <svg viewBox="0 0 35 32" id="icon--monitor" width="50%" height="50%"> <g fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round"><g stroke="currentColor" strokeWidth={2}><g><g><g><path d="M17 25.1225806v5.6064517m-7.1 0h15-15zM3 1h29c1.1045695 0 2 .8954305 2 2v19.1225806c0 1.1045695-.8954305 2-2 2H3c-1.1045695 0-2-.8954305-2-2V3c0-1.1045695.8954305-2 2-2z" /></g></g></g></g></g> </svg>
-                                        <p>Front-end</p>
+                                        <p>Website</p>
                                     </div>
                                 </label>
                             </div>
                             <div>
-                                <label htmlFor="input-backend">
-                                    <input class="uk-radio project-choice" type="radio" name="input-checked" id="input-backend" />
+                                <label htmlFor="input-mobile">
+                                    <input class="uk-radio project-choice" type="radio" name="input-checked" id="input-mobile" value="mobile app" />
                                     <div className="uk-card uk-card-default uk-card-body hover-card project-label">
                                     <svg viewBox="0 0 36 34" id="icon--server" width="50%" height="50%"> <g fill="none" fillRule="evenodd"><g><g><g><g transform="translate(1 1)"><rect stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" width={34} height="12.8" rx={2} /><rect stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" y="19.2" width={34} height="12.8" rx={2} /><ellipse fill="currentColor" cx="6.375" cy="6.4" rx="2.125" ry="2.13333333" /><ellipse fill="currentColor" cx="6.375" cy="25.6" rx="2.125" ry="2.13333333" /></g></g></g></g></g> </svg>
-                                        <p>Back-end</p>
+                                        <p>Mobile App</p>
                                     </div>
                                 </label>
                             </div>
                             <div>
                                 <label htmlFor="input-design">
-                                    <input class="uk-radio project-choice" type="radio" name="input-checked" id="input-design" />
+                                    <input class="uk-radio project-choice" type="radio" name="input-checked" id="input-design" value="design project" />
                                     <div className="uk-card uk-card-default uk-card-body hover-card project-label">
                                     <svg viewBox="0 0 34 34" id="icon--grid" width="50%" height="50%"> <g fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round"><g stroke="currentColor" strokeWidth={2}><g><g><g><path d="M1 1h12.4444444v12.4444444H1zM20.5555556 1H33v12.4444444H20.5555556zM20.5555556 20.5555556H33V33H20.5555556zM1 20.5555556h12.4444444V33H1z" /></g></g></g></g></g> </svg>
                                         <p>UI &amp; UX design</p>
