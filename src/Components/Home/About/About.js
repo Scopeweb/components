@@ -5,6 +5,8 @@ import OfficeNYC from '../../../Images/office-nyc.png';
 import OfficeNYCwebp from '../../../Images/office-nyc.webp'
 import OfficeNL from '../../../Images/office-nl.png';
 import OfficeNLwebp from '../../../Images/office-nl.webp';
+import AboutIMG from '../../../Images/aboutus.png';
+import AboutIMGwebp from '../../../Images/aboutus.webp';
 
 class About extends Component {
     render() {
@@ -33,11 +35,11 @@ class About extends Component {
                                 <div className="left uk-width-expand uk-first-column">
                                     <div className="item gallery-box big">
                                         <div className="outer">
-                                            <div className="image pr__image__cover" data-src="assets/images/about_01.jpg" data-uk-img style={{ backgroundImage: 'url("http://gentium.pixerex.com/html/demo/assets/images/about_01.jpg")' }} />
+                                            <div className="image pr__image__cover" data-src={AboutIMG} webp={AboutIMGwebp} data-uk-img style={{ backgroundImage: `url(${AboutIMG})` }} />
                                             <div className="inner">
                                                 <h3 className="title uk-h5">Teamwork</h3>
                                                 <p className="description">Committed and creative</p>
-                                                <a href="#" className="link uk-position-cover" />
+                                                {/* <a href="#" className="link uk-position-cover" /> */}
                                             </div>
                                         </div>
                                     </div>
