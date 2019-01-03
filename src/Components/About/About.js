@@ -27,10 +27,11 @@ class About extends Component {
     render() {
         return (
             <React.Fragment>
-                <Helmet
-                    title="About · Scope NYC · Passion, People &amp; Technology"
-                    description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
-                />
+                <Helmet>
+                  <title>About · Scope NYC · Passion, People & Technology</title>
+                  <meta name="description" content="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative design &amp; development services." />
+                  <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+                </Helmet>
                 <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
                   <div className="pr__darkbg pr__hero__wrap" id="site-hero">
                     <Navbar />

@@ -4,10 +4,10 @@ import ReactGA from 'react-ga';
 
 import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
-import ServiceCards from './ServiceCards/ServiceCards';
+// import ServiceCards from './ServiceCards/ServiceCards';
 import Services from './Services/Services';
 import CaseStudies from './CaseStudies/CaseStudies';
-import About from './About/About';
+// import About from './About/About';
 import Footer from '../Global/Footer/Footer';
 
 export const initGA= () => {
@@ -32,9 +32,7 @@ class Home extends Component {
       <React.Fragment>
         <Helmet>
           <title>Scope NYC · Android &amp; iOS Design & Development</title>
-          <meta
-            name="description"
-            content="Hi. We are ScopeWeb. An award-winning Web &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today." />
+          <meta name="description" content="Hi. We are ScopeWeb. An award-winning &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today" />
         </Helmet>
         <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
         <div className="pr__dark pr__hero__wrap" id="site-hero">
