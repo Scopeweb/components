@@ -1,10 +1,4 @@
-README.md
-
-<!-- ![Scope Logo Header](/readme/scope-repo-header.png)
-
-<br /> -->
-
-# Components
+# scopeweb.nyc
 
 A Collection of React components that have proven useful
 
