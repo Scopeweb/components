@@ -11,10 +11,12 @@ const customStyles = {
       transform             : 'translate(-50%, -50%)',
       width                 : '55%',
       maxHeight             : '100vh',
-      overflowY             : 'auto'
+      overflowY             : 'auto',
+      backgroundColor       : '#182535',
+      border                : '#E9204F'
     }
   };
-  
+
   // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
   Modal.setAppElement('#root')
 
@@ -24,11 +26,11 @@ class DigitalMarketing extends Component {
         super(props);
 
         this.onClick = this.onClick.bind(this);
-    
+
         this.state = {
           modalIsOpen: false
         };
-    
+
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
       }
@@ -36,15 +38,15 @@ class DigitalMarketing extends Component {
       onClick() {
           window.location.href = `mailto:info@scopeweb.nyc`;
       }
-    
+
       openModal() {
         this.setState({modalIsOpen: true});
       }
-    
+
       closeModal() {
         this.setState({modalIsOpen: false});
       }
-    
+
       render() {
         return (
           <div>
@@ -64,8 +66,8 @@ class DigitalMarketing extends Component {
               contentLabel="Example Modal"
             >
             <div className="uk-modal-body">
-                <h2 className="uk-modal-title">Digital Marketing</h2>
-                <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>We help businesses leverage digital channels to connect with current and prospective customers.</h3>
+                <h2 className="uk-modal-title title-light">Digital Marketing</h2>
+                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>We help businesses leverage digital channels to connect with current and prospective customers.</h3>
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 <p>In the digital age, producing rich content to attract audiences is necessary. As a creative agency, our capable strategists build digital content that drives human connection and conversation through storytelling.</p>
                 <p>Google provides more ROI than any other digital platform. Most people find us through a Google search, and we’re ranked in the top positions for the most competitive terms in our industry. We help our partners do the same.</p>

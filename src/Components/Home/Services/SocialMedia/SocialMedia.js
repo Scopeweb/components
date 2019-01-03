@@ -11,10 +11,12 @@ const customStyles = {
       transform             : 'translate(-50%, -50%)',
       width                 : '55%',
       maxHeight             : '100vh',
-      overflowY             : 'auto'
+      overflowY             : 'auto',
+      backgroundColor       : '#182535',
+      border                : '#E9204F'
     }
   };
-  
+
   // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
   Modal.setAppElement('#root')
 
@@ -24,11 +26,11 @@ class SocialMedia extends Component {
         super(props);
 
         this.onClick = this.onClick.bind(this);
-    
+
         this.state = {
           modalIsOpen: false
         };
-    
+
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
       }
@@ -36,15 +38,15 @@ class SocialMedia extends Component {
       onClick() {
           window.location.href = `mailto:info@scopeweb.nyc`;
       }
-    
+
       openModal() {
         this.setState({modalIsOpen: true});
       }
-    
+
       closeModal() {
         this.setState({modalIsOpen: false});
       }
-    
+
       render() {
         return (
           <div>
@@ -64,8 +66,8 @@ class SocialMedia extends Component {
               contentLabel="Example Modal"
             >
             <div className="uk-modal-body">
-                <h2 className="uk-modal-title">Social Media</h2>
-                <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>We help businesses find the platforms that help them connect with customers, outside of the default choices.</h3>
+                <h2 className="uk-modal-title title-light">Social Media</h2>
+                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>We help businesses find the platforms that help them connect with customers, outside of the default choices.</h3>
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 <p>Scope's social media service is designed to keep you in total control of your messages across various social media networks, and is based on understanding your own unique business challenges and objectives.</p>
                 <p>We will make sure you never fall into a well-publicised #epicfail campaign or a compilation of 'The 10 Biggest Social Media Disasters…' We also won’t completely take over your accounts because we know that people want to talk to you and not listen to constant, one-way sales messages pushed from your marketing agency.</p>

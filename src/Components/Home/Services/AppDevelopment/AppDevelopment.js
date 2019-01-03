@@ -66,18 +66,14 @@ class AppDevelopment extends Component {
               contentLabel="Example Modal"
             >
             <div className="uk-modal-body">
-                <h2 className="uk-modal-title title-light">Design &amp; Concept</h2>
-                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>We create designs that are more than skin deep, engaging your users to come back.</h3>
+                <h2 className="uk-modal-title title-light">App Development</h2>
+                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>We have the expertise in both native and cross-platform technologies, we always find the right balance among price, quality, and project requirements.</h3>
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                <p>Each step in our process helps us to focus and hone in more closely on a user’s experience. In the IA we’re essentially establishing orientation and signposting an in wireframing we start to look more closely at the elements that a user will see on the screen itself: content, navigation, calls to action, interactive features etc.</p>
-                <p>We use this process to identify content and feature priorities:</p>
-                <ul>
-                    <li>What does a visitor need to see first?</li>
-                    <li>What do we know about this user?</li>
-                    <li>If we know they’re an existing customer and they’re on a location aware mobile device, what content or feature would they find most useful?</li>
-                </ul>
-                <p>Wireframes are the documents that we output from this process, they’re essentially static (or interactive) sketches that demonstrate the content, features and navigation a page will have. They also become the blueprint for designers, developers, content writers, animators and SEO teams to all have a say and understand what a specific page needs to do and what they need to do to bring it into reality.</p>
-                <p>Recognizing the need for a strong Design &amp; Concept strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
+                <p>We build cross-platform apps that run on both iOS and Android from a single code base. Code written in React Native is operating system–agnostic, yet apps written in React feel just like native apps written in Java or Swift. Using React Native speeds up mobile app development for iOS and Android.</p>
+                <p>The number of people who own Apple iPhones is growing year over year. You certainly want to offer your unique solution to this huge user base! We develop iOS apps for iPhones and iPads using the Swift and Objective-C programming languages and Apple’s own development tools and guidelines.</p>
+                <p>Outside of iOS apps, we are experienced in Android mobile application development from scratch, and can port your existing iOS application to Android. We use Java to build apps for Google's mobile operating system.</p>
+                <p>If your app needs to cover both iOS and Android, we use React Native. This allows us to build cross-platform apps that run on both iOS and Android from a single code base. Code written in React Native is operating system–agnostic, yet apps written in React feel just like native apps written in Java or Swift. Using React Native speeds up mobile app development for iOS and Android.</p>
+                <p>Recognizing the need for a mobile app is a good start, but, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>

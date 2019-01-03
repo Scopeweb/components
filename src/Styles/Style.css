@@ -906,7 +906,7 @@ body.single-post .hero-content .category {
   position: relative;
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #747474;
+  color: #ffffff;
 }
 
 .item.client-box>.outer>.inner .description:before {
@@ -1721,7 +1721,7 @@ body.single-post .hero-content .category {
 .uk-button {
   font-family: "Avant Grade", sans-serif;
   font-weight: 700;
-  text-transform: lowercase;
+  text-transform: none;
   line-height: 1 !important;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2101,7 +2101,7 @@ img[data-src][src*='data:image'] {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #0e1427;
+  color: #ffffff;
 }
 
 .pr__form label .required {
@@ -2114,9 +2114,9 @@ img[data-src][src*='data:image'] {
   line-height: 52px;
   height: 52px;
   padding: 0 20px;
-  color: #747474;
-  background-color: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  color: #ffffff;
+  background-color: #182535;
+  border: 1px solid #0e1427;
   outline: 0;
 }
 
@@ -2137,9 +2137,9 @@ img[data-src][src*='data:image'] {
 .pr__form textarea {
   width: calc(100% - 40px);
   min-height: 200px;
-  color: #747474;
-  background-color: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  color: #ffffff;
+  background-color: #182535;;
+  border: 1px solid #0e1427;
   line-height: 1.612 !important;
   padding: 20px;
   resize: none;
@@ -2414,7 +2414,11 @@ body #site-wrapper {
     color: #E9204F;
   }
 
-
+  .pr__header .inner .navbar .menu>ul>li:hover a:after,
+  .pr__header .inner .navbar .menu>ul>li>a.uk-active a:after {
+    width: 20px;
+    color: #E9204F;
+  }
 
   .pr__header .inner .navbar .lang {
     min-width: 40px;
@@ -2718,6 +2722,11 @@ canvas {
   height: 100%;
 }
 
+/** option **/
+.uk-select:not([multiple]):not([size]) option {
+  color: #ffffff;
+}
+
 /** react-modal z-index **/
 .ReactModal__Overlay {
   z-index: 200;
@@ -2731,6 +2740,11 @@ canvas {
   .uk-card-default {
     margin-bottom: 30px !important;
   }
+}
+
+.uk-card-default {
+  background-color: #182535;
+  color: #ffffff;
 }
 
 .pr__header.uk-sticky.pr__dark {
@@ -2845,4 +2859,12 @@ canvas {
 
 .space-between {
   padding: 0 0 100px;
+}
+
+.uk-close {
+  color: #ffffff;
+}
+
+.uk-close:hover {
+  color: #E9204F;
 }

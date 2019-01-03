@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import NavLightContact from '../../NavLightContact/NavLightContact';
+
 class PreNav extends Component {
 	render() {
 
@@ -11,11 +13,11 @@ class PreNav extends Component {
               <nav className="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
                   <li><a href="/">Home</a></li>
-                  <li><a href="/about">About</a></li>
+                  {/* <li><a href="/about">About</a></li>
                   <li><a href="/how-we-work">Services</a></li>
-                  <li><a href="/blog">Blog</a></li>
+                  <li><a href="/blog">Blog</a></li> */}
                   <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener noreferrer">Client Area</a></li>
-                  <li><a href="#pr__contact">Start a Project</a></li>
+                  <li><a href="mailto:info@scopeweb.nyc">Start a Project</a></li>
                 </ul>
               </nav>
             </div>
