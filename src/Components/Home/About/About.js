@@ -11,7 +11,7 @@ import AboutIMGwebp from '../../../Images/aboutus.webp';
 class About extends Component {
     render() {
         return (
-            <section className="pr__about pr__section uk-section uk-section-large" id="pr__about">
+            <section className="pr__dark pr__about pr__section uk-section uk-section-large" id="pr__about">
                 <div className="section-outer">
                     <div className="section-heading">
                         <div className="outer">

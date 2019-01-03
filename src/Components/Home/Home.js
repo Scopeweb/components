@@ -31,17 +31,17 @@ class Home extends Component {
 		return (
       <React.Fragment>
         <Helmet>
-          <title>Scope NYC · Web &amp; Mobile Apps for Industry leaders</title>
+          <title>Scope NYC · Android &amp; iOS Design & Development</title>
           <meta
             name="description"
             content="Hi. We are ScopeWeb. An award-winning Web &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today." />
         </Helmet>
         <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
-        <div className="pr__hero__wrap" id="site-hero">
+        <div className="pr__dark pr__hero__wrap" id="site-hero">
           {/* <div className="pr__hero__wrap" style={{backgroundImage: `url(${HeroBG})`}} id="site-hero"> */}
             <Navbar />
             <Jumbotron />
-            <ServiceCards />
+            {/* <ServiceCards /> */}
           </div>
           <div className="pr__content" id="site-content">
             <hr className="pr__vr__section" />
@@ -49,8 +49,7 @@ class Home extends Component {
             <hr className="pr__vr__section" />
             <CaseStudies />
             <hr className="pr__vr__section" />
-            <About />
-            <hr className="pr__vr__section" />
+
             <Footer />
           </div>
         </div>

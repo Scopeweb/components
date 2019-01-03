@@ -14,7 +14,7 @@ class Navbar extends Component {
 				<div className="inner">
 					<div className="logo">
 						<a href="/">
-							<div className="brand" />
+							<div className="brand-light" />
 						</a>
 					</div>
 					<div className="navbar pr-font-second">

@@ -11,7 +11,7 @@ import geminiwebp from '../../../Images/gemini-gas-springs_case_image.webp';
 class CaseStudies extends Component {
     render() {
         return (
-            <section className="pr__works pr__section section-slider uk-section uk-section-large" id="pr__works">
+            <section className="pr__dark pr__works pr__section section-slider uk-section uk-section-large" id="pr__works">
                 <div className="section-outer">
                     <div className="section-heading">
                         <div className="uk-container">

@@ -20,7 +20,7 @@ const customStyles = {
   // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
   Modal.setAppElement('#root')
 
-class ContentStrategy extends Component {
+class WebDevelopment extends Component {
 
     constructor(props) {
         super(props);
@@ -50,10 +50,10 @@ class ContentStrategy extends Component {
       render() {
         return (
           <div>
-            <div className="item service-box uk-grid-margin uk-first-column">
+            <div className="item service-box">
               <div className="inner" onClick={this.openModal}>
-              <i className="overlay-icon icon pr-line-clipboard" />
-              <h5 className="title uk-h5">Content Strategy</h5>
+              <i className="overlay-icon icon pr-laptop" />
+              <h5 className="title uk-h5">Web Development</h5>
               <i className="icon pr-arrow-right" />
               <a className="link uk-position-cover" />
               </div>
@@ -66,13 +66,12 @@ class ContentStrategy extends Component {
               contentLabel="Example Modal"
             >
             <div className="uk-modal-body">
-                <h2 className="uk-modal-title title-light">Content Strategy</h2>
-                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>We create content that speaks directly to your audience and builds a conversation around your brand.</h3>
+                <h2 className="uk-modal-title title-light">Web Development</h2>
+                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>Developing the right foundation for your website is key to online success. Balancing functionality and user experience with the latest technology is essential to create the perfect platform to develop your web presence upon.</h3>
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
-                <p>Stories matter. Good ones make a difference. We launch brands through innovative marketing, from conception to creation to conversion. With analytics tracking and campaign measurement, we combine the creative power of in-house writers, designers and videographers with the search data of your highest-value prospects.</p>
-                <p>We employ creative storytellers from the U.S. who are trained to use digital tools to inform great content. Strong copywriting attracts more clicks and more conversations – it’s likely one of the first entry points into your sales funnel.</p>
-                <p>Combining industry-focused content writers who excel at nailing tone, style and subject matter with experienced content marketing strategists and project managers, Scope ensures you can count on a copywriting services team that speaks to your target audience, drives commercial results and sticks to your deadlines.</p>
-                <p>Recognizing the need for a strong Content Creation strategy is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
+                <p>Our website developers provide expert web application development and web design services to our clients. Scope offers a variety of website design and development services, from creating mobile web development solutions and responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies. </p>
+                <p>With up to 85% of consumers visiting company’s or service provider’s website before making a purchase, more and more consumers make decisions based on their online experience: the appearance, usability and accessibility of your website is more important than ever, especially in an increasingly competitive market.</p>
+                <p>Recognizing the need for a strong online presence is just the first step, actually putting one together is an entirely different undertaking! We're here to help - send us a message.</p>
                 <p className="uk-text-right">
                 <button className="uk-button uk-button-secondary uk-modal-close uk-margin-right" type="button" onClick={this.closeModal}>Cancel</button>
                 <button className="uk-button uk-button-default" type="button" onClick={this.onClick}>Get started</button>
@@ -85,4 +84,4 @@ class ContentStrategy extends Component {
 
 }
 
-export default ContentStrategy;
+export default WebDevelopment;

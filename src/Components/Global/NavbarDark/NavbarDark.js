@@ -9,7 +9,7 @@ class NavbarDark extends Component {
 		return (
       <div>
         <PreNav />
-        <header className="pr__header pr__dark" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;">
+        <header className="pr__header" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;">
 				<div className="uk-container">
 					<div className="inner">
 						<div className="logo">

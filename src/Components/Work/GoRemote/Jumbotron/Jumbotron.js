@@ -5,7 +5,7 @@ class Jumbotron extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="pr__hero__wrap pr__dark" id="site-hero">
+        <div className="pr__hero__wrap" id="site-hero">
           <div className="uk-sticky-placeholder" style={{height: 170, margin: 0}} hidden />{/* Site Header End */}
           <section className="pr__hero uk-section uk-margin-large-bottom" id="pr__hero">
             <div className="section-inner">

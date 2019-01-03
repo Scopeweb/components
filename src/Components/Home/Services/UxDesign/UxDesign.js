@@ -11,10 +11,12 @@ const customStyles = {
       transform             : 'translate(-50%, -50%)',
       width                 : '55%',
       maxHeight             : '100vh',
-      overflowY             : 'auto'
+      overflowY             : 'auto',
+      backgroundColor       : '#182535',
+      border                : '#E9204F'
     }
   };
-  
+
   // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
   Modal.setAppElement('#root')
 
@@ -24,11 +26,11 @@ class UxDesign extends Component {
         super(props);
 
         this.onClick = this.onClick.bind(this);
-    
+
         this.state = {
           modalIsOpen: false
         };
-    
+
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
       }
@@ -36,15 +38,15 @@ class UxDesign extends Component {
       onClick() {
           window.location.href = `mailto:info@scopeweb.nyc`;
       }
-    
+
       openModal() {
         this.setState({modalIsOpen: true});
       }
-    
+
       closeModal() {
         this.setState({modalIsOpen: false});
       }
-    
+
       render() {
         return (
           <div>
@@ -64,8 +66,8 @@ class UxDesign extends Component {
               contentLabel="Example Modal"
             >
             <div className="uk-modal-body">
-                <h2 className="uk-modal-title">UX Design</h2>
-                <h3 className="title uk-h4" style={{opacity: 1, transform: 'translateY(0px)'}}>This how we make interfaces that let your business goals connect to user needs.</h3>
+                <h2 className="uk-modal-title title-light">UX Design</h2>
+                <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>This how we make interfaces that let your business goals connect to user needs.</h3>
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 <p>We interview your audience and do field research. The product discovery methods help us find out people's wants and needs. We share what we learned on workshops, where we can decide together which direction to go.</p>
                 <p>Based on the research we create customer journeys. We build up your user personas, discover and map your product’s full customer journey.</p>
