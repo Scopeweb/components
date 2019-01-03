@@ -31,13 +31,17 @@ class About extends Component {
                     title="About · Scope NYC · Passion, People &amp; Technology"
                     description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
                 />
-                <Navbar />
-                <Jumbotron />
-                <DottedGrid />
-                <hr className="pr__vr__section" />
-                <OurValues />
-                <hr className="pr__vr__section" />
-                <Footer />
+                <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
+                  <div className="pr__darkbg pr__hero__wrap" id="site-hero">
+                    <Navbar />
+                    <Jumbotron />
+                  </div>
+                  <DottedGrid />
+                  <hr className="pr__vr__section" />
+                  <OurValues />
+                  <hr className="pr__vr__section" />
+                  <Footer />
+                </div>
             </React.Fragment>
         );
     }
