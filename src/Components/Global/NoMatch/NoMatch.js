@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavbarDark from '../NavbarDark/NavbarDark';
+import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
 const NoMatch = () => {
   return (
     <React.Fragment>
-      <NavbarDark />
+      <Navbar />
       <div className="bg-dark">
         {/* Simple HttpErrorPages | MIT License | https://github.com/AndiDittrich/HttpErrorPages */}
         <title>We've got some trouble | 404 - Resource not found</title>

@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import ReactGA from "react-ga";
 
 import Jumbotron from "./Jumbotron/Jumbotron";
-import NavbarDark from "../../Global/NavbarDark/NavbarDark";
+import Navbar from "../../Global/Navbar/Navbar";
 import Content from "./Content/Content";
 import Footer from "../../Global/Footer/Footer";
 
@@ -29,7 +29,7 @@ class GoRemote extends Component {
           title="GoRemote Case Study · Scope NYC"
           description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
         />
-        <NavbarDark />
+        <Navbar />
         <Jumbotron />
         <hr className="pr__vr__section" />
         <Content />

@@ -12,7 +12,7 @@ class Jumbotron extends Component {
               <div className="uk-width-2-3@s uk-first-column">
                 {/* <hr className="line pr__hr__primary" style={{width: 70}} /> */}
                 <div className="space-between" />
-                <h2 className="title uk-heading-hero" style={{opacity: 1, transform: 'translateY(0px)'}}>Scope brings decades of design, marketing and engineering expertise to your next idea.</h2>
+                <h1 className="title uk-heading-hero" style={{opacity: 1, transform: 'translateY(0px)'}}>Scope brings decades of design, marketing and engineering expertise to your next idea.</h1>
                 <p className="jumbo-desc">
                   We help you build the products you've always dreamed of, and the ones you're yet to dream up.
                 </p>

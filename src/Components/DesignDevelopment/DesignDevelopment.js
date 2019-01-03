@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import ReactGA from 'react-ga';
 
 import Jumbotron from './Jumbotron/Jumbotron';
-import NavbarDark from '../Global/NavbarDark/NavbarDark';
+import Navbar from '../Global/Navbar/Navbar';
 import Heading from './Heading/Heading';
 import AnalyzeDesignDevelop from './TopCards/TopCards';
 import ProcessHeading from './ProcessHeading/ProcessHeading';
@@ -33,7 +33,7 @@ class About extends Component {
                     title="Scope NYC · How we work · Design &amp; Development"
                     description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
                 </Helmet>
-                <NavbarDark />
+                <Navbar />
                 <Jumbotron />
                 <Heading />
                 <AnalyzeDesignDevelop />
