@@ -21,7 +21,7 @@ const App = ({ match }) => (
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/about' component={About}/>
-            <Route exact path='/how-we-work' component={DesignDevelopment}/>
+            <Route exact path='/our-process' component={DesignDevelopment}/>
             <Route path='/work/bayron-home-improvements' component={BayronHomeImprovements} />
             <Route path='/work/goremote' component={GoRemote} />
             <Route component={NoMatch} />

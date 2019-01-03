@@ -51,7 +51,7 @@ class NavLightContact extends Component {
         return (
           <div>
             <div className="inner" onClick={this.openModal}>
-              <a className="button uk-button uk-button-large uk-button-default">Make an enquiry</a>
+              <a className="button uk-button uk-button-large uk-button-default">Work with us</a>
             </div>
             <Modal
               isOpen={this.state.modalIsOpen}

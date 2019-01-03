@@ -16,7 +16,7 @@ class Jumbotron extends Component {
                 <p className="jumbo-desc">
                   We help you build the products you've always dreamed of, and the ones you're yet to dream up.
                 </p>
-                <Link to="/how-we-work">
+                <Link to="/our-process">
                     <button className="uk-button uk-button-large uk-button-default uk-margin-top">Discover how we work</button>
                 </Link>
               </div>
