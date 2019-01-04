@@ -13,12 +13,12 @@ class Jumbotron extends Component {
               <hr className="line pr__hr__secondary" style={{width: 70}} />
                 <div className="inner uk-grid" data-uk-grid="true">
                   <div className="left uk-width-expand uk-first-column">
-                      <h2 className="page-title uk-heading-primary title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>Bayron Home Improvements</h2>
+                      <h1 className="page-title uk-heading-primary title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>Bayron Home Improvements</h1>
                   </div>
-                  <div className="right uk-width-3-5@s">
-                      <p className="header-title">
+                  <div className="right uk-width-3-5@s vertical-center">
+                    <p className="header-title">
                       We partnered up with a local home improvements business to design a fun, intuitive website that continues to help drive growth. Meet Bayron Home Improvements.
-                      </p>
+                    </p>
                   </div>
                 </div>
               </div>

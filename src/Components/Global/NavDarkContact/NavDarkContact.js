@@ -20,7 +20,7 @@ const customStyles = {
   // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
   Modal.setAppElement('#root')
 
-class NavLightContact extends Component {
+class NavDarkContact extends Component {
 
     constructor(props) {
         super(props);
@@ -64,8 +64,8 @@ class NavLightContact extends Component {
                 <div className="uk-container uk-container-xsmall">
                     <div className="form-inner uk-position-relative">
                         <button className="uk-modal-close-full uk-close uk-icon" type="button" data-uk-close="ratio: 2;" onClick={this.closeModal}><span></span></button>
-                    <h2 className="uk-modal-title uk-h1 title-light">Let's Talk?</h2>
-                    <p>Let’s make something awesome together</p>
+                    <h2 className="uk-modal-title uk-h1 title-light">Let's Talk!</h2>
+                    <p>We’d love to hear what you are working on. Drop us a note here and we’ll get back to you within 24 hours.</p>
                     <form className="pr__contact pr__form" action="https://formspree.io/info@scopeweb.nyc" method="POST">
                         <div className="pr__form__group">
                             <label htmlFor="name">Your Name <span className="required">*</span></label>
@@ -109,11 +109,11 @@ class NavLightContact extends Component {
                         <div className="pr__form__group">
                             <label htmlFor="budget">What's your budget range?</label>
                             <select className="uk-select" id="budget" name="budget">
-                                <option value="Low budget">Low budget</option>
-                                <option value="$1,000 - $2,000">$1,000 — $2,000</option>
-                                <option>$2,000 — $5,000</option>
-                                <option>$5,000 — $10,000</option>
-                                <option>$10,000+</option>
+                              <option value="Less than $10,000t">Less than $10,000</option>
+                              <option value="$10,000 - $20,000">$10,000 — $20,000</option>
+                              <option value="$20,000 — $50,000">$20,000 — $50,000</option>
+                              <option value="$50,000 — $100,000">$50,000 — $100,000</option>
+                              <option value="$100,000+">$100,000+</option>
                             </select>
                         </div>
                         <div className="pr__form__group">
@@ -134,4 +134,4 @@ class NavLightContact extends Component {
 
 }
 
-export default NavLightContact;
+export default NavDarkContact;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import NavLightContact from '../../NavLightContact/NavLightContact';
+import NavDarkContact from '../../NavDarkContact/NavDarkContact';
 
 class PreNav extends Component {
 	render() {

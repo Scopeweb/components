@@ -2893,3 +2893,17 @@ canvas {
 .uk-padding-large-bottom {
   padding-bottom: 40px;
 }
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.red {
+  color: #E9204F;
+}
+
+a.red:hover {
+  text-decoration: underline;
+}

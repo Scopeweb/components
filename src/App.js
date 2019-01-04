@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import DesignDevelopment from './Components/DesignDevelopment/DesignDevelopment';
+import Work from './Components/Work/Work';
 import BayronHomeImprovements from './Components/Work/BayronHomeImprovements/BayronHomeImprovements';
 import GoRemote from './Components/Work/GoRemote/GoRemote';
+import GeminiGasSprings from './Components/Work/GeminiGasSprings/GeminiGasSprings';
 import NoMatch from './Components/Global/NoMatch/NoMatch';
 
 import './Styles/Fonts.css';
@@ -19,11 +21,13 @@ const App = ({ match }) => (
   <div className="App">
     <Router>
         <Switch>
-            <Route exact path='/' component={Home}/>
-            <Route exact path='/about' component={About}/>
-            <Route exact path='/our-process' component={DesignDevelopment}/>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/our-process' component={DesignDevelopment} />
+            <Route exact path='/work' component={Work} />
             <Route path='/work/bayron-home-improvements' component={BayronHomeImprovements} />
             <Route path='/work/goremote' component={GoRemote} />
+            <Route path='/work/gemini-gas-springs' component={GeminiGasSprings} />
             <Route component={NoMatch} />
         </Switch>
     </Router>

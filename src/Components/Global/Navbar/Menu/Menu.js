@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-import NavLightContact from '../../NavLightContact/NavLightContact';
+import NavDarkContact from '../../NavDarkContact/NavDarkContact';
 
 class Menu extends Component {
     render() {
@@ -13,12 +13,15 @@ class Menu extends Component {
                             <li><NavLink to='/about' activeClassName="uk-active">About</NavLink></li>
                         </div> */}
                         <div className="uk-navbar-item">
+                            <li><NavLink to='/work' activeClassName="uk-active">Work</NavLink></li>
+                        </div>
+                        <div className="uk-navbar-item">
                             <li><NavLink to='/our-process' activeClassName="uk-active">Our Process</NavLink></li>
                         </div>
                         <div className="uk-navbar-item">
                             <li><a href="https://medium.com/scopeweb" target="_blank" rel="noopener noreferrer">Blog</a></li>
                         </div>
-                        <NavLightContact />
+                        <NavDarkContact />
                     </ul>
                 </nav>
             </div>
