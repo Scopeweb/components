@@ -30,7 +30,7 @@ class CaseStudies extends Component {
                 </div>
 
                 <div className="uk-container case-study-items mb-5">
-                    <a className="link__case-study" href="/work/bayron-home-improvements">
+                    <a className="link__case-study link link--arrowed" href="/work/bayron-home-improvements">
                     <div className="inner uk-grid case-study__item_bayron" data-uk-grid="true">
                         <div className="left uk-width-expand uk-first-column case-study__content_bayron">
                             <div className="project-label__bayron mb-4">
@@ -40,7 +40,15 @@ class CaseStudies extends Component {
                             <p className="case-study__desc mb-5">
                                 An easy-to-use website to showcase projects, services and previous successes. Over 30% of traffic increase in just 3 months time, and a Home Depot partnership.
                             </p>
-                            <div className="project-cta">View case study</div>
+                            <div className="project-cta">
+                              View case study
+                              <svg className="arrow-icon" height={32} viewBox="0 0 32 32" width={32} xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" stroke="#ffffff" strokeLinejoin="round" strokeMiterlimit={10} strokeWidth="1.5">
+                                  <circle className="arrow-icon--circle" cx={16} cy={16} r="15.12" />
+                                  <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98" />
+                                </g>
+                              </svg>
+                            </div>
                         </div>
                         <div className="right">
                             <Image className="case-img__bayron" src={bayron} webp={bayronwebp} alt="Bayron Home Improvements case study" />
@@ -50,7 +58,7 @@ class CaseStudies extends Component {
                 </div>
 
                 <div className="uk-container case-study-items mb-5">
-                    <a className="link__case-study" href="/work/goremote">
+                    <a className="link__case-study link link--arrowed" href="/work/goremote">
                     <div className="inner uk-grid case-study__item_go-remote" data-uk-grid="true">
                         <div className="left uk-width-expand uk-first-column case-study__content_bayron">
                             <div className="project-label__go-remote">
@@ -60,7 +68,15 @@ class CaseStudies extends Component {
                             <p className="case-study__desc mb-5">
                                 Digital nomads can now connect to employers. Concepted, designed and developed the platform as a side product for Scope Labs. Launch expected in early 2019 with early access to our newsletter subscribers.
                             </p>
-                            <div className="project-cta">View case study</div>
+                            <div className="project-cta">
+                              View case study
+                              <svg className="arrow-icon" height={32} viewBox="0 0 32 32" width={32} xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" stroke="#5D5555" strokeLinejoin="round" strokeMiterlimit={10} strokeWidth="1.5">
+                                  <circle className="arrow-icon--circle" cx={16} cy={16} r="15.12" />
+                                  <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98" />
+                                </g>
+                              </svg>
+                            </div>
                         </div>
                         <div className="right uk-grid-margin uk-first-column">
                             <Image className="case-img__goremote" src={goremote} webp={goremotewebp} alt="GoRemote job board case study" />
@@ -70,7 +86,7 @@ class CaseStudies extends Component {
                 </div>
 
                 <div className="uk-container case-study-items mb-5">
-                    <a className="link__case-study" href="/work/gemini-gas-springs">
+                    <a className="link__case-study link link--arrowed" href="/work/gemini-gas-springs">
                     <div className="inner uk-grid case-study__item_gemini" data-uk-grid="true">
                         <div className="left uk-width-expand uk-first-column case-study__content">
                             <div className="project-label__gemini mb-4">
@@ -80,7 +96,15 @@ class CaseStudies extends Component {
                             <p className="case-study__desc mb-5">
                             Designed and built the user experience for North America's only true manufacturer of high quality industrial gas springs. Continued efforts to scale, monitor performance and build a gas spring product configurator.
                             </p>
-                            <div className="project-cta">View case study</div>
+                            <div className="project-cta">
+                              View case study
+                              <svg className="arrow-icon" height={32} viewBox="0 0 32 32" width={32} xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" stroke="#ffffff" strokeLinejoin="round" strokeMiterlimit={10} strokeWidth="1.5">
+                                  <circle className="arrow-icon--circle" cx={16} cy={16} r="15.12" />
+                                  <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98" />
+                                </g>
+                              </svg>
+                            </div>
                         </div>
                         <div className="right uk-grid-margin uk-first-column">
                             <Image className="case-img__gemini" src={gemini} webp={geminiwebp} alt="Gemini Gas Springs case study" />

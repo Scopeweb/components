@@ -31,7 +31,7 @@ class Home extends Component {
 		return (
       <React.Fragment>
         <Helmet>
-          <title>Scope NYC · Android &amp; iOS Design & Development</title>
+          <title>Scope NYC · NYC App & Web product development</title>
           <meta name="description" content="Hi. We are ScopeWeb. An award-winning &amp; Mobile development firm from NYC. We produce affordable, great design that achieves your objectives. Let's start growing your business today" />
         </Helmet>
         <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
