@@ -31,7 +31,7 @@ class BayronHomeImprovements extends Component {
         />
         <Navbar />
         <Jumbotron />
-        <hr className="pr__vr__section" />
+        {/* <hr className="pr__vr__section" /> */}
         <Content />
         <hr className="pr__vr__section" />
         <Footer />
