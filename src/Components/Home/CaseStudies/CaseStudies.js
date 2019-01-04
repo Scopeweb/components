@@ -58,7 +58,7 @@ class CaseStudies extends Component {
                             </div>
                             <h2 className="mb-3">GoRemote Job Board.</h2>
                             <p className="case-study__desc mb-5">
-                                Digital nomads can now connect to employers. Concepted, designed and developed the platform as a side product for Scope Labs. Launch expected in early 2019 with early access to our subscribers.
+                                Digital nomads can now connect to employers. Concepted, designed and developed the platform as a side product for Scope Labs. Launch expected in early 2019 with early access to our newsletter subscribers.
                             </p>
                             <div className="project-cta">View case study</div>
                         </div>
