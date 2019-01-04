@@ -21,31 +21,32 @@ export const logPageView = () => {
 
 class About extends Component {
 
-    componentDidMount () {
-        initGA()
-        logPageView()
-    }
+  componentDidMount () {
+    initGA()
+    logPageView()
+  }
 
-    render() {
-        return (
-            <React.Fragment>
-                <Helmet
-                  title="Scope NYC · Our Process · Design &amp; Development"
-                  description="Learn how scope helps entrepreneurs grow businesses through our experience in creating innovative services." />
-                <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
-                  <div className="pr__dark pr__hero__wrap" id="site-hero">
-                    <Navbar />
-                    <Jumbotron />
-                  </div>
-                  {/* <Heading />
-                  <AnalyzeDesignDevelop />
-                  <ProcessHeading />
-                  <Steps /> */}
-                  <Footer />
-                </div>
-            </React.Fragment>
-        );
-    }
+  render() {
+    return (
+      <React.Fragment>
+        <Helmet
+          title="Scope NYC · Our Process · Design &amp; Development"
+          description="Learn how scope helps entrepreneurs grow businesses through our experience in creating innovative services."
+        />
+        <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
+          <div className="pr__dark pr__hero__wrap" id="site-hero">
+            <Navbar />
+            <Jumbotron />
+          </div>
+          {/* <Heading />
+          <AnalyzeDesignDevelop />
+          <ProcessHeading />
+          <Steps /> */}
+          <Footer />
+        </div>
+      </React.Fragment>
+    );
+  }
 }
 
 export default About;

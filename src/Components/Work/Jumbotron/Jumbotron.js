@@ -17,7 +17,7 @@ class Jumbotron extends Component {
                   Uh oh, looks like you're going to have to wait to see our work. Sometimes we're simply too busy working on kick-ass projects.
                 </p>
                 <p>We'd love to tell you more, but we are currently re-thinking our website, and our portfolio display too. Stay tuned!</p>
-                <p className="uk-margin-large-bottom">No problem though, just <a className="red" href="mailto:info@scopeweb.nyc?Subject=Sample of work request">get in touch</a> and we'll send you some further info about this project.</p>
+                <p className="uk-margin-large-bottom">No problem though, just <a className="red" href="mailto:info@scopeweb.nyc?Subject=Sample of work request">get in touch</a> and we'll send you some further info about our projects.</p>
 
                 <a href="mailto:info@scopeweb.nyc">
                     <button className="uk-button uk-button-large uk-button-default uk-margin-top">Work with us<svg style={{marginLeft: '20px'}} width={35} height={7} viewBox="0 0 35 7" version="1.1"><g id="Canvas" fill="none"><g id="arrow-left-icon"><path id="triangle" d="M 3.5 0L 6.53109 5.25L 0.468911 5.25L 3.5 0Z" transform="matrix(0 1 -1 0 35 0)" fill="white" /><line id="Line" y1="-0.5" x2={30} y2="-0.5" transform="translate(0 4)" stroke="white" /></g></g></svg></button>
