@@ -2946,3 +2946,8 @@ a.red:hover {
 .link--arrowed:hover .arrow-icon--circle {
   stroke-dashoffset: 0;
 }
+
+.contact-icon {
+  width: 100%;
+  height: 48px;
+}

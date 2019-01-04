@@ -78,20 +78,20 @@ class NavDarkContact extends Component {
                         <div className="pr__form__group">
                         <div className="uk-child-width-1-3@s uk-grid uk-text-center" uk-grid>
                             <div>
-                                <label htmlFor="input-frontend">
-                                    <input className="uk-radio project-choice" type="radio" name="input-checked" id="input-frontend" />
+                                <label htmlFor="input-web">
+                                    <input className="uk-radio project-choice" type="radio" name="input-checked" id="input-web" />
                                     <div className="uk-card uk-card-default uk-card-body hover-card project-label">
-                                    <svg viewBox="0 0 35 32" id="icon--monitor" width="50%" height="50%"> <g fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round"><g stroke="currentColor" strokeWidth={2}><g><g><g><path d="M17 25.1225806v5.6064517m-7.1 0h15-15zM3 1h29c1.1045695 0 2 .8954305 2 2v19.1225806c0 1.1045695-.8954305 2-2 2H3c-1.1045695 0-2-.8954305-2-2V3c0-1.1045695.8954305-2 2-2z" /></g></g></g></g></g> </svg>
-                                        <p>Front-end</p>
+                                    <svg className="contact-icon" viewBox="0 0 35 32" id="icon--monitor" width="50%" height="50%"> <g fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round"><g stroke="currentColor" strokeWidth={2}><g><g><g><path d="M17 25.1225806v5.6064517m-7.1 0h15-15zM3 1h29c1.1045695 0 2 .8954305 2 2v19.1225806c0 1.1045695-.8954305 2-2 2H3c-1.1045695 0-2-.8954305-2-2V3c0-1.1045695.8954305-2 2-2z" /></g></g></g></g></g> </svg>
+                                        <p>Web App</p>
                                     </div>
                                 </label>
                             </div>
                             <div>
-                                <label htmlFor="input-backend">
-                                    <input className="uk-radio project-choice" type="radio" name="input-checked" id="input-backend" />
+                                <label htmlFor="input-mobile">
+                                    <input className="uk-radio project-choice" type="radio" name="input-checked" id="input-mobile" />
                                     <div className="uk-card uk-card-default uk-card-body hover-card project-label">
-                                    <svg viewBox="0 0 36 34" id="icon--server" width="50%" height="50%"> <g fill="none" fillRule="evenodd"><g><g><g><g transform="translate(1 1)"><rect stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" width={34} height="12.8" rx={2} /><rect stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" y="19.2" width={34} height="12.8" rx={2} /><ellipse fill="currentColor" cx="6.375" cy="6.4" rx="2.125" ry="2.13333333" /><ellipse fill="currentColor" cx="6.375" cy="25.6" rx="2.125" ry="2.13333333" /></g></g></g></g></g> </svg>
-                                        <p>Back-end</p>
+                                      <svg className="contact-icon" viewBox="0 0 24 34" id="icon--smartphone" width="50%" height="50%"> <path d="M12 28c1.1045695 0 2-.8954305 2-2s-.8954305-2-2-2-2 .8954305-2 2 .8954305 2 2 2zM3 2c-.55228475 0-1 .44771525-1 1v28c0 .5522847.44771525 1 1 1h18c.5522847 0 1-.4477153 1-1V3c0-.55228475-.4477153-1-1-1H3zm0-2h18c1.6568542 0 3 1.34314575 3 3v28c0 1.6568542-1.3431458 3-3 3H3c-1.65685425 0-3-1.3431458-3-3V3c0-1.65685425 1.34314575-3 3-3z" fill="currentColor" fillRule="evenodd" /> </svg>
+                                        <p>Mobile App</p>
                                     </div>
                                 </label>
                             </div>
@@ -99,7 +99,7 @@ class NavDarkContact extends Component {
                                 <label htmlFor="input-design">
                                     <input className="uk-radio project-choice" type="radio" name="input-checked" id="input-design" />
                                     <div className="uk-card uk-card-default uk-card-body hover-card project-label">
-                                    <svg viewBox="0 0 34 34" id="icon--grid" width="50%" height="50%"> <g fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round"><g stroke="currentColor" strokeWidth={2}><g><g><g><path d="M1 1h12.4444444v12.4444444H1zM20.5555556 1H33v12.4444444H20.5555556zM20.5555556 20.5555556H33V33H20.5555556zM1 20.5555556h12.4444444V33H1z" /></g></g></g></g></g> </svg>
+                                    <svg className="contact-icon" viewBox="0 0 34 34" id="icon--grid" width="50%" height="50%"> <g fill="none" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round"><g stroke="currentColor" strokeWidth={2}><g><g><g><path d="M1 1h12.4444444v12.4444444H1zM20.5555556 1H33v12.4444444H20.5555556zM20.5555556 20.5555556H33V33H20.5555556zM1 20.5555556h12.4444444V33H1z" /></g></g></g></g></g> </svg>
                                         <p>UI &amp; UX design</p>
                                     </div>
                                 </label>
@@ -109,11 +109,11 @@ class NavDarkContact extends Component {
                         <div className="pr__form__group">
                             <label htmlFor="budget">What's your budget range?</label>
                             <select className="uk-select" id="budget" name="budget">
-                              <option value="Less than $10,000t">Less than $10,000</option>
-                              <option value="$10,000 - $20,000">$10,000 — $20,000</option>
-                              <option value="$20,000 — $50,000">$20,000 — $50,000</option>
-                              <option value="$50,000 — $100,000">$50,000 — $100,000</option>
-                              <option value="$100,000+">$100,000+</option>
+                                <option value="Less than $10,000t">Less than $10,000</option>
+                                <option value="$10,000 - $20,000">$10,000 — $20,000</option>
+                                <option value="$20,000 — $50,000">$20,000 — $50,000</option>
+                                <option value="$50,000 — $100,000">$50,000 — $100,000</option>
+                                <option value="$100,000+">$100,000+</option>
                             </select>
                         </div>
                         <div className="pr__form__group">
