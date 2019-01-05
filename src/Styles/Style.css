@@ -2320,7 +2320,6 @@ body #site-wrapper {
 
 /* 08. Responsive
 --------------------------------------------------- */
-
 @media (min-width: 640px) {
 
   /* Mobile Navbar */
@@ -2335,6 +2334,25 @@ body #site-wrapper {
   /* Section: Hero */
   .pr__hero__wrap {
     background-position: right;
+  }
+
+  .case-img__bayron {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .case-img_gemini {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .case-study {
+    width: 40%;
+    margin-top: 100px;
+  }
+
+  .project-cta {
+    margin-bottom: 25px !important;
   }
 }
 
@@ -2544,6 +2562,21 @@ body #site-wrapper {
     line-height: 1.3;
     margin-bottom: 50px;
   }
+
+  .space-between {
+    display: none;
+  }
+
+  .project-cta {
+    margin-bottom: 30px !important;
+  }
+
+  .case-study {
+    width: 50%;
+  }
+  .pr__hero__wrap.pr__dark {
+    min-height: 59vh;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -2568,11 +2601,33 @@ body #site-wrapper {
   }
 }
 
-/* Case studies */
-.case-study {
-  margin-top: 150px;
+@media screen and (min-width: 1275 px) {
+  .space-between {
+    display: block;
+  }
 }
 
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .ReactModal__Content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    border: rgb(233, 32, 79) !important;
+    background: rgb(24, 37, 53) !important;
+    overflow: auto !important;
+    border-radius: 4px !important;
+    outline: none !important;
+    padding: 20px !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 65% !important;
+    max-height: 100vh;
+  }
+}
+
+/* Case studies */
 #case-study {
   margin-bottom: 75px;
 }
@@ -2637,24 +2692,6 @@ body #site-wrapper {
 .case-study__item_bayron h2 {
   color: #ffffff;
 }
-
-@media only screen and (max-width: 600px) {
-  .case-img__bayron {
-    width: 100%;
-    padding-top: 50px;
-  }
-
-  .case-img_gemini {
-    width: 100%;
-    padding-top: 50px;
-  }
-}
-
-/* @media only screen and (min-width: 1080px) {
-  .case-study-items {
-    min-height: 475px;
-  }
-} */
 
 .project-label__bayron {
   display: inline-block;
@@ -2865,42 +2902,6 @@ canvas {
 
 .space-between {
   padding: 0 0 90px;
-}
-
-@media screen and (min-width: 1275 px) {
-  .space-between { display: block; }  /* show it on large screens */
-}
-
-@media screen and (max-width: 1024px) {
-  .space-between {
-    display: none;
-  }
-  .ReactModal__Content {
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    right: auto !important;
-    bottom: auto !important;
-    border: rgb(233, 32, 79) !important;
-    background: rgb(24, 37, 53) !important;
-    overflow: auto !important;
-    border-radius: 4px !important;
-    outline: none !important;
-    padding: 20px !important;
-    margin-right: -50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: 100% !important;
-    height: 100vh !important;
-  }
-  .project-cta {
-    margin-bottom: 30px !important;
-  }
-  .case-study {
-    width: 100%;
-  }
-  .pr__hero__wrap.pr__dark {
-    min-height: 59vh;
-  }
 }
 
 .uk-close {
