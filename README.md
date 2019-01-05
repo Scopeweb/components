@@ -12,7 +12,7 @@ git clone git@github.com:scopeweb/scopeweb.nyc.git scopeweb && cd scopeweb
 npm install
 
 # Start development
-npm run dev
+npm run start
 
 # 🎉 That's it, you're ready to develop
 ```
