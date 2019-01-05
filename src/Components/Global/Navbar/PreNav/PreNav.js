@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import NavDarkContact from '../../NavDarkContact/NavDarkContact';
-
 class PreNav extends Component {
 	render() {
 
@@ -13,9 +11,10 @@ class PreNav extends Component {
               <nav className="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
                   <li><a href="/">Home</a></li>
-                  {/* <li><a href="/about">About</a></li>
-                  <li><a href="/our-process">Services</a></li>
-                  <li><a href="/blog">Blog</a></li> */}
+                  {/* <li><a href="/about">About</a></li> */}
+                  <li><a href="/work">Work</a></li>
+                  <li><a href="/our-process">Our Process</a></li>
+                  <li><a href="https://medium.com/scopeweb" target="_blank" rel="noopener noreferrer">Blog</a></li>
                   <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener noreferrer">Client Area</a></li>
                   <li><a href="mailto:info@scopeweb.nyc">Start a Project</a></li>
                 </ul>

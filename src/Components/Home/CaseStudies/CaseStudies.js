@@ -50,7 +50,7 @@ class CaseStudies extends Component {
                               </svg>
                             </div>
                         </div>
-                        <div className="right">
+                        <div className="right case-study">
                             <Image className="case-img__bayron" src={bayron} webp={bayronwebp} alt="Bayron Home Improvements case study" />
                         </div>
                     </div>
@@ -78,7 +78,7 @@ class CaseStudies extends Component {
                               </svg>
                             </div>
                         </div>
-                        <div className="right uk-grid-margin uk-first-column">
+                        <div className="right case-study uk-grid-margin uk-first-column">
                             <Image className="case-img__goremote" src={goremote} webp={goremotewebp} alt="GoRemote job board case study" />
                         </div>
                     </div>
@@ -106,7 +106,7 @@ class CaseStudies extends Component {
                               </svg>
                             </div>
                         </div>
-                        <div className="right uk-grid-margin uk-first-column">
+                        <div className="right case-study uk-grid-margin uk-first-column">
                             <Image className="case-img__gemini" src={gemini} webp={geminiwebp} alt="Gemini Gas Springs case study" />
                         </div>
                     </div>

@@ -53,7 +53,7 @@ class AppDevelopment extends Component {
             <div className="item service-box uk-grid-margin uk-first-column uk-active">
               <div className="inner" onClick={this.openModal}>
               <i className="overlay-icon icon pr-line-phone" />
-              <h5 className="title uk-h5">App Development</h5>
+              <h5 className="title uk-h5">iOS &amp; Android</h5>
               <i className="icon pr-arrow-right" />
               <a className="link uk-position-cover" />
               </div>
@@ -66,7 +66,7 @@ class AppDevelopment extends Component {
               contentLabel="Example Modal"
             >
             <div className="uk-modal-body">
-                <h2 className="uk-modal-title title-light">App Development</h2>
+                <h2 className="uk-modal-title title-light">iOS &amp; Android</h2>
                 <h3 className="title uk-h4 title-light" style={{opacity: 1, transform: 'translateY(0px)'}}>We have the expertise in both native and cross-platform technologies, we always find the right balance among price, quality, and project requirements.</h3>
                 <hr className="line pr__hr__secondary" style={{opacity: 1, transform: 'translateY(0px)'}} />
                 <p>We build cross-platform apps that run on both iOS and Android from a single code base. Code written in React Native is operating system–agnostic, yet apps written in React feel just like native apps written in Java or Swift. Using React Native speeds up mobile app development for iOS and Android.</p>

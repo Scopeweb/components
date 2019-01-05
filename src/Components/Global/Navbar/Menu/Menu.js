@@ -13,7 +13,7 @@ class Menu extends Component {
                             <li><NavLink to='/about' activeClassName="uk-active">About</NavLink></li>
                         </div> */}
                         <div className="uk-navbar-item">
-                            <li><NavLink to='/work' activeClassName="uk-active">Work</NavLink></li>
+                            <li><NavLink to='/work' activeClassName="uk-active">Our Work</NavLink></li>
                         </div>
                         <div className="uk-navbar-item">
                             <li><NavLink to='/our-process' activeClassName="uk-active">Our Process</NavLink></li>

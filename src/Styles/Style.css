@@ -2867,6 +2867,42 @@ canvas {
   padding: 0 0 90px;
 }
 
+@media screen and (min-width: 1275 px) {
+  .space-between { display: block; }  /* show it on large screens */
+}
+
+@media screen and (max-width: 1024px) {
+  .space-between {
+    display: none;
+  }
+  .ReactModal__Content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    border: rgb(233, 32, 79) !important;
+    background: rgb(24, 37, 53) !important;
+    overflow: auto !important;
+    border-radius: 4px !important;
+    outline: none !important;
+    padding: 20px !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+    height: 100vh !important;
+  }
+  .project-cta {
+    margin-bottom: 30px !important;
+  }
+  .case-study {
+    width: 100%;
+  }
+  .pr__hero__wrap.pr__dark {
+    min-height: 59vh;
+  }
+}
+
 .uk-close {
   color: #ffffff;
 }
