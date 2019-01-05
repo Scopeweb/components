@@ -9,7 +9,7 @@ class Jumbotron extends Component {
         <div className="uk-container">
           <div className="section-inner">
             <div className="hero-content uk-grid uk-grid-stack" data-uk-grid>
-              <div className="uk-width-2-3@s uk-first-column">
+              <div className="uk-width-3-3@s uk-first-column">
                 {/* <hr className="line pr__hr__primary" style={{width: 70}} /> */}
                 <div className="space-between" />
                 <h1 className="title uk-heading-hero" style={{opacity: 1, transform: 'translateY(0px)'}}>Our Process</h1>

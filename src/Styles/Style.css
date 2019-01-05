@@ -2597,6 +2597,12 @@ body #site-wrapper {
     width: 50%;
   }
   .pr__hero__wrap.pr__dark {
+    min-height: 100vh;
+  }
+}
+
+@media (width: 768px) and (height: 1024px) {
+  .pr__hero__wrap.pr__dark {
     min-height: 59vh;
   }
 }
@@ -2626,6 +2632,12 @@ body #site-wrapper {
 @media (min-width: 1200 px) {
   .space-between {
     display: block !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .space-between {
+    display: none !important;
   }
 }
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavDarkContact from '../../NavDarkContact/NavDarkContact';
 
 class PreNav extends Component {
 	render() {
@@ -16,7 +17,11 @@ class PreNav extends Component {
                   <li><a href="/our-process">Our Process</a></li>
                   <li><a href="https://medium.com/scopeweb" target="_blank" rel="noopener noreferrer">Blog</a></li>
                   <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener noreferrer">Client Area</a></li>
-                  <li><a href="mailto:info@scopeweb.nyc">Start a Project</a></li>
+                  <li>
+                    <a href="mailto:info@scopeweb.nyc">
+                      <button className="uk-button uk-button-default">Start a project</button>
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
