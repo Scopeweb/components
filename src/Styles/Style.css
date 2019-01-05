@@ -2320,6 +2320,26 @@ body #site-wrapper {
 
 /* 08. Responsive
 --------------------------------------------------- */
+@media (max-width: 1024px) {
+  .ReactModal__Content {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    border: rgb(233, 32, 79) !important;
+    background: rgb(24, 37, 53) !important;
+    overflow: auto !important;
+    border-radius: 4px !important;
+    outline: none !important;
+    padding: 20px !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+    max-height: 100vh !important;
+  }
+}
+
 @media (min-width: 640px) {
 
   /* Mobile Navbar */
@@ -2353,6 +2373,12 @@ body #site-wrapper {
 
   .project-cta {
     margin-bottom: 25px !important;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1250px) {
+  .space-between {
+    display: none;
   }
 }
 
@@ -2563,10 +2589,6 @@ body #site-wrapper {
     margin-bottom: 50px;
   }
 
-  .space-between {
-    display: none;
-  }
-
   .project-cta {
     margin-bottom: 30px !important;
   }
@@ -2601,29 +2623,9 @@ body #site-wrapper {
   }
 }
 
-@media screen and (min-width: 1275 px) {
+@media (min-width: 1200 px) {
   .space-between {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-  .ReactModal__Content {
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    right: auto !important;
-    bottom: auto !important;
-    border: rgb(233, 32, 79) !important;
-    background: rgb(24, 37, 53) !important;
-    overflow: auto !important;
-    border-radius: 4px !important;
-    outline: none !important;
-    padding: 20px !important;
-    margin-right: -50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: 65% !important;
-    max-height: 100vh;
+    display: block !important;
   }
 }
 
