@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import Image from 'react-image-webp';
 
 import PreNav from './PreNav/PreNav';
 import Menu from './Menu/Menu';
+import Logo from '../../../Images/logo-light.png';
+import LogoWebp from '../../../Images/logo-light.webp';
 
 class Navbar extends Component {
 	render() {
@@ -14,7 +17,9 @@ class Navbar extends Component {
           <div className="inner">
             <div className="logo">
               <a href="/">
-                <div className="brand-light" />
+                <div className="brand-light">
+                  <Image src={Logo} webp={LogoWebp} alt="Scope NYC" />
+                </div>
               </a>
             </div>
             <div className="navbar pr-font-second">
