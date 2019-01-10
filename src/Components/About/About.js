@@ -28,7 +28,7 @@ class About extends Component {
         return (
             <React.Fragment>
                 <Helmet>
-                  <title>About · Scope NYC · Passion, People & Technology</title>
+                  <title>Scope &bull; Passion, People & Technology</title>
                   <meta name="description" content="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative design &amp; development services." />
                   <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
                 </Helmet>

@@ -20,7 +20,7 @@ class Work extends Component {
     return (
       <React.Fragment>
         <Helmet>
-          <title>Scope NYC · Transforming your dreams into products</title>
+          <title>Scope · Our work &bull; Mobile Design &amp; Development</title>
           <meta name="description" content="See our work and learn how we help entrepreneurs and businesses build products that solve everyday problems." />
         </Helmet>
         <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>

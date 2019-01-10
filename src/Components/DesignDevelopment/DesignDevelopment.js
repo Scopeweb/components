@@ -30,7 +30,7 @@ class About extends Component {
     return (
       <React.Fragment>
         <Helmet
-          title="Scope NYC · Our Process · Design &amp; Development"
+          title="Scope &bull; Our Process &bull; Design &amp; Development"
           description="Learn how scope helps entrepreneurs grow businesses through our experience in creating innovative services."
         />
         <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
