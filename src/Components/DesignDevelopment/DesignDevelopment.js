@@ -11,7 +11,7 @@ import Navbar from '../Global/Navbar/Navbar';
 import Footer from '../Global/Footer/Footer';
 
 ReactGA.initialize('UA-118350668-1');
-ReactGA.pageview("/our-process");
+ReactGA.pageview("/ourprocess");
 
 class About extends Component {
 
