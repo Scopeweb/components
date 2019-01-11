@@ -11,12 +11,12 @@ import Navbar from '../Global/Navbar/Navbar';
 import Footer from '../Global/Footer/Footer';
 
 export const initGA= () => {
-    console.log('GAinit')
-    ReactGA.initialize('UA-129909734-1')
+  console.log('GAinit')
+  ReactGA.initialize('UA-118350668-1')
 }
 export const logPageView = () => {
-    ReactGA.set({ page: window.location.pathname })
-    ReactGA.pageview(window.location.pathname)
+  ReactGA.set({ page: window.location.pathname })
+  ReactGA.pageview(window.location.pathname)
 }
 
 class About extends Component {

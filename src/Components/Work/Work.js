@@ -8,7 +8,7 @@ import Footer from '../Global/Footer/Footer';
 
 export const initGA= () => {
   console.log('GAinit')
-  ReactGA.initialize('UA-129909734-1')
+  ReactGA.initialize('UA-118350668-1')
 }
 export const logPageView = () => {
   ReactGA.set({ page: window.location.pathname})
