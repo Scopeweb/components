@@ -6,14 +6,8 @@ import Navbar from '../Global/Navbar/Navbar';
 import Jumbotron from './Jumbotron/Jumbotron';
 import Footer from '../Global/Footer/Footer';
 
-export const initGA= () => {
-  console.log('GAinit')
-  ReactGA.initialize('UA-118350668-1')
-}
-export const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname})
-  ReactGA.pageview(window.location.pathname)
-}
+ReactGA.initialize('UA-118350668-1');
+ReactGA.pageview("/work");
 
 class Work extends Component {
   render() {

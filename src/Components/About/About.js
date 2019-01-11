@@ -8,23 +8,12 @@ import DottedGrid from './DottedGrid/DottedGrid';
 import OurValues from './OurValues/OurValues';
 import Footer from '../Global/Footer/Footer';
 
-export const initGA= () => {
-    console.log('GAinit')
-    ReactGA.initialize('UA-118350668-1')
-}
-export const logPageView = () => {
-    ReactGA.set({ page: window.location.pathname })
-    ReactGA.pageview(window.location.pathname)
-}
+ReactGA.initialize('UA-118350668-1');
+ReactGA.pageview("/about");
 
 class About extends Component {
 
-    componentDidMount () {
-        initGA()
-        logPageView()
-    }
-
-    render() {
+  render() {
         return (
             <React.Fragment>
                 <Helmet>

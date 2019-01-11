@@ -10,21 +10,10 @@ import Navbar from '../Global/Navbar/Navbar';
 // import Steps from './Steps/Steps';
 import Footer from '../Global/Footer/Footer';
 
-export const initGA= () => {
-  console.log('GAinit')
-  ReactGA.initialize('UA-118350668-1')
-}
-export const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname })
-  ReactGA.pageview(window.location.pathname)
-}
+ReactGA.initialize('UA-118350668-1');
+ReactGA.pageview("/our-process");
 
 class About extends Component {
-
-  componentDidMount () {
-    initGA()
-    logPageView()
-  }
 
   render() {
     return (

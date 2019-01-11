@@ -10,22 +10,10 @@ import CaseStudies from './CaseStudies/CaseStudies';
 // import About from './About/About';
 import Footer from '../Global/Footer/Footer';
 
-export const initGA= () => {
-  console.log('GAinit')
-  ReactGA.initialize('UA-118350668-1')
-}
-export const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname})
-  ReactGA.pageview(window.location.pathname)
-}
+ReactGA.initialize('UA-118350668-1');
+ReactGA.pageview("/");
 
 class Home extends Component {
-
-  componentDidMount () {
-    initGA()
-    logPageView()
-  }
-
 	render() {
 
 		return (

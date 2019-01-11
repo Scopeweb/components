@@ -7,20 +7,10 @@ import Navbar from "../../Global/Navbar/Navbar";
 import Content from "./Content/Content";
 import Footer from "../../Global/Footer/Footer";
 
-export const initGA = () => {
-  console.log("GAinit");
-  ReactGA.initialize("UA-118350668-1");
-};
-export const logPageView = () => {
-  ReactGA.set({ page: window.location.pathname });
-  ReactGA.pageview(window.location.pathname);
-};
+ReactGA.initialize('UA-118350668-1');
+ReactGA.pageview("/work/bayron-home-improvements");
 
 class BayronHomeImprovements extends Component {
-  componentDidMount() {
-    initGA();
-    logPageView();
-  }
 
   render() {
     return (
