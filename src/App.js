@@ -22,7 +22,6 @@ const App = ({ match }) => (
     <Router>
         <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
             <Route exact path='/our-process' component={DesignDevelopment} />
             <Route exact path='/work' component={Work} />
             <Route path='/work/bayron-home-improvements' component={BayronHomeImprovements} />
