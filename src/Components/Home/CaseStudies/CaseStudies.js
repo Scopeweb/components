@@ -106,7 +106,7 @@ class CaseStudies extends Component {
                               </svg>
                             </div>
                         </div>
-                        <div className="right case-study uk-grid-margin uk-first-column">
+                        <div className="right case-study-gemini uk-grid-margin uk-first-column">
                             <Image className="case-img__gemini" src={gemini} webp={geminiwebp} alt="Gemini Gas Springs case study" />
                         </div>
                     </div>

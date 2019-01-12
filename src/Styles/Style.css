@@ -236,8 +236,8 @@ strong {
 
 .pr__header .inner .logo .brand-light {
   display: inline-block;
-  width: 136px;
-  height: 40px;
+  width: auto;
+  height: 100%;
 }
 
 .pr__header .inner .navbar {
@@ -2343,6 +2343,10 @@ body #site-wrapper {
     margin-top: 100px;
   }
 
+  .case-study-gemini {
+    width: 40%;
+  }
+
   .project-cta {
     margin-bottom: 50px !important;
   }
@@ -2366,7 +2370,7 @@ body #site-wrapper {
 
   .case-img__bayron {
     width: 100%;
-    padding-top: 50px;
+    margin-top: -100px;
   }
 
   .case-img_gemini {
@@ -2377,6 +2381,11 @@ body #site-wrapper {
   .case-study {
     width: 40%;
     margin-top: 100px;
+  }
+
+  .case-study-gemini {
+    width: 40%;
+    margin-top: 60px;
   }
 
   .project-cta {
@@ -2672,6 +2681,7 @@ body #site-wrapper {
 
 .case-study__desc {
   line-height: 30px;
+  padding-right: 20px;
 }
 
 .project-cta {
