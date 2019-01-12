@@ -2337,6 +2337,17 @@ body #site-wrapper {
   }
 }
 
+@media (min-width: 590px) and (max-width: 639px) {
+  .case-study {
+    width: 40%;
+    margin-top: 100px;
+  }
+
+  .project-cta {
+    margin-bottom: 50px !important;
+  }
+}
+
 @media (min-width: 640px) {
 
   /* Mobile Navbar */
