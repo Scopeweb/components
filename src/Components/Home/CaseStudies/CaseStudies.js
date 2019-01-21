@@ -7,6 +7,8 @@ import goremote from '../../../Images/go-remote_case_image.png';
 import goremotewebp from '../../../Images/go-remote_case_image.webp';
 import gemini from '../../../Images/gemini-gas-springs_case_image.png'
 import geminiwebp from '../../../Images/gemini-gas-springs_case_image.webp';
+import giveasy from '../../../Images/giveasy_case_image.png';
+import giveasywebp from '../../../Images/giveasy_case_image.webp';
 
 class CaseStudies extends Component {
     render() {
@@ -108,6 +110,35 @@ class CaseStudies extends Component {
                         </div>
                         <div className="right case-study-gemini uk-grid-margin uk-first-column">
                             <Image className="case-img__gemini" src={gemini} webp={geminiwebp} alt="Gemini Gas Springs case study" />
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                <div className="uk-container case-study-items mb-5">
+                    <a className="link__case-study link link--arrowed" href="/work/giveasy">
+                    <div className="inner uk-grid case-study__item_giveasy" data-uk-grid="true">
+                        <div className="left uk-width-expand uk-first-column case-study__content">
+                            <div className="project-label__giveasy mb-4">
+                                Scope Labs
+                            </div>
+                            <h2 className="mb-3">GivEasy</h2>
+                            <p className="case-study__desc mb-5">
+                             Starting from a Hackathon, we set out to build a donation platform that helps connect donators to local charities. Using geocoding technology, users submit the items they want to donate, allowing charities to send a driver
+                             and pick them up from your address of choice.
+                            </p>
+                            <div className="project-cta">
+                              View case study
+                              <svg className="arrow-icon" height={32} viewBox="0 0 32 32" width={32} xmlns="http://www.w3.org/2000/svg">
+                                <g fill="none" stroke="#ffffff" strokeLinejoin="round" strokeMiterlimit={10} strokeWidth="1.5">
+                                  <circle className="arrow-icon--circle" cx={16} cy={16} r="15.12" />
+                                  <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98" />
+                                </g>
+                              </svg>
+                            </div>
+                        </div>
+                        <div className="right case-study-giveasy uk-grid-margin uk-first-column">
+                            <Image className="case-img__giveasy" src={giveasy} webp={giveasywebp} alt="GivEasy case study" />
                         </div>
                     </div>
                     </a>

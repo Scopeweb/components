@@ -2373,9 +2373,14 @@ body #site-wrapper {
     margin-top: -100px;
   }
 
-  .case-img_gemini {
+  .case-img__gemini {
     width: 100%;
     padding-top: 50px;
+  }
+
+  .case-img__giveasy {
+    width: 100%;
+    padding-top: 100px;
   }
 
   .case-study {
@@ -2791,6 +2796,36 @@ body #site-wrapper {
 }
 
 .case-study__item_gemini h2 {
+  color: #ffffff;
+}
+
+.case-study__item_giveasy {
+  border-radius: 10px;
+  background: #c51010;
+  min-width: 100%;
+  min-height: 475px;
+  color: #ffffff;
+  margin-top: 75px;
+  margin-left: 0px;
+}
+
+.case-study__item_giveasy:hover {
+  -webkit-box-shadow: 0px 0px 20px 11px rgb(62, 73, 107);
+  -moz-box-shadow: 0px 0px 20px 11px rgb(62, 73, 107);
+  box-shadow: 0px 0px 20px 11px rgb(62, 73, 107);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.project-label__giveasy {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 50px;
+  background-color: #ff3d3d;
+}
+
+.case-study__item_giveasy h2 {
   color: #ffffff;
 }
 

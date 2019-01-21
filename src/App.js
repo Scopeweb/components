@@ -8,6 +8,7 @@ import Work from './Components/Work/Work';
 import BayronHomeImprovements from './Components/Work/BayronHomeImprovements/BayronHomeImprovements';
 import GoRemote from './Components/Work/GoRemote/GoRemote';
 import GeminiGasSprings from './Components/Work/GeminiGasSprings/GeminiGasSprings';
+import GivEasy from './Components/Work/GivEasy/GivEasy';
 import NoMatch from './Components/Global/NoMatch/NoMatch';
 
 import './Styles/Fonts.css';
@@ -27,6 +28,7 @@ const App = ({ match }) => (
             <Route path='/work/bayron-home-improvements' component={BayronHomeImprovements} />
             <Route path='/work/goremote' component={GoRemote} />
             <Route path='/work/gemini-gas-springs' component={GeminiGasSprings} />
+            <Route path='/work/giveasy' component={GivEasy} />
             <Route component={NoMatch} />
         </Switch>
     </Router>
