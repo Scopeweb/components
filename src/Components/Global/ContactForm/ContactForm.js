@@ -65,7 +65,7 @@ const customStyles = {
                     <div className="form-inner uk-position-relative uk-margin-medium-top uk-margin-medium-bottom">
                         <button className="uk-modal-close-full uk-close uk-icon" type="button" data-uk-close="ratio: 2;" onClick={this.closeModal}><span></span></button>
                     <h2 className="uk-modal-title uk-h1 title-light">Let's Talk!</h2>
-                    <p>We’d love to hear what you are working on. Drop us a note here and we’ll get back to you within 24 hours.</p>
+                    <p>We’d love to hear what you are working on. Drop us a note here and we’ll get back to you within 48 hours.</p>
                     <form className="pr__contact pr__form" action="https://formspree.io/info@scopeweb.nyc" method="POST">
                         <div className="pr__form__group">
                             <label htmlFor="name">Your Name <span className="required">*</span></label>
