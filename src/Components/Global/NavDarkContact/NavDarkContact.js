@@ -51,7 +51,7 @@ class NavDarkContact extends Component {
         return (
           <div>
             <div className="uk-navbar-item pr-none" onClick={this.openModal}>
-                <button className="uk-button uk-button-default">Start a project</button>
+                <button className="uk-button uk-button-default">Work with us</button>
             </div>
             <Modal
               isOpen={this.state.modalIsOpen}

@@ -19,7 +19,7 @@ class PreNav extends Component {
                   <li><a href="https://clients.scopeweb.nyc" target="_blank" rel="noopener noreferrer">Client Area</a></li>
                   <li>
                     <a href="mailto:info@scopeweb.nyc">
-                      <button className="uk-button uk-button-default">Start a project</button>
+                      <button className="uk-button uk-button-default">Work with us</button>
                     </a>
                   </li>
                 </ul>
