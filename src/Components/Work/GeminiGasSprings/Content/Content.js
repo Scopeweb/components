@@ -24,7 +24,7 @@ import BayronCaseIMG04webp from '../../../../Images/bayron-case-img-04.webp';
 export default class Content extends Component {
   render() {
     const shareUrl = 'https://scopeweb.nyc/work/bayron-home-improvements';
-    const title = 'Learn more about the website we built for Bayron Home Improvements';
+    const title = 'Learn more about the website @scopewebnyc built for Gemini Gas Springs Inc.';
     return (
       <div className="pr__content" id="site-content">
         <div

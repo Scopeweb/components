@@ -29,16 +29,12 @@ class GoRemote extends Component {
           title="GoRemote Case Study · Scope NYC"
           description="Scope has been around since 2016. Since then we helped businesses grow through our strong and innovative web development services."
         />
-        <div className="pr__wrapper" id="site-wrapper" style={{top:'0px'}}>
-          <div className="pr__dark pr__hero__wrap" id="site-hero">
-            <Navbar />
-            <Jumbotron />
-          </div>
-          <hr className="pr__vr__section" />
-          {/* <Content />
-          <hr className="pr__vr__section" /> */}
-          <Footer />
-        </div>
+        <Navbar />
+        <Jumbotron />
+        {/* <hr className="pr__vr__section" /> */}
+        <Content />
+        <hr className="pr__vr__section" />
+        <Footer />
       </React.Fragment>
     );
   }
